@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap"); /* Tipografias */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  width: 100%;
+}
+
+/* Variables CSS */
+:root {
+  --tipografiaNombre: "Protest Guerrilla", Arial, sans-serif;
+  --tipografiaGeneral: "Kanit", Arial, sans-serif;
+  /* Colores */
+  --FondoBody: #333333bf; /* Negro semi-transparente */
+  --FondoNav: #1f1f1f; /* Gris oscuro para el nav */
+  --TituloH1: #1f3a93; /* Azul Marino */
+  --Texto: #f5f5f5; /* Blanco */
+  --TextoLink: #2ecc71; /* Verde Esmeralda */
+  --ColorOpcion1: #f5f5f5; /* Gris Claro */
+  --ColorOpcion2: #708090; /* Gris más oscuro */
+  --ColorOpcion3: #d1c4e9; /* Lavanda */
+  --ColorOpcion4: #ffeb3b; /* Amarillo brillante */
+  --Hover: #e74c3c; /* Rojo Suave */
+}
+
+/* Body */
+body {
+  background-color: var(--FondoBody);
+  font-family: var(--tipografiaGeneral);
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* Estilos generales */
+
+.linea {
+  width: 300px; /* Largo de la línea */
+  height: 7px; /* Grosor de la línea */
+  background-color: var(--Texto);
+  border-radius: 2px;
+}
+/* Estilos responsive */
+@media (max-width: 900px) {
+  .linea {
+    width: 200px;
+    height: 6px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* NavBar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--FondoNav);
+  width: 100%;
+}
+.tamaño {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 88rem;
+  margin: 0 auto;
+  width: 100%;
+}
+/* Contenedor hamburguesa */
+.contenedorHamburguesa {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  width: auto;
+}
+.navbarLinks {
+  display: flex;
+  gap: 2rem;
+}
+.navbarLinks a {
+  color: var(--Texto);
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  position: relative;
+}
+.navbarLinks a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: var(--Hover);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.navbarLinks a:hover::after {
+  width: 100%;
+}
+.navbarLinks a:hover {
+  color: var(--Hover);
+}
+/* Botón hamburguesa */
+.navbarBoton {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: auto;
+}
+.navbarBoton .barra {
+  width: 25px;
+  height: 3px;
+  background-color: var(--Texto);
+  margin: 3px 0;
+}
+/* Estilos responsive */
+@media (max-width: 900px) {
+  .navbarLinks {
+    display: none;
+  }
+  .navbarBoton {
+    display: flex;
+  }
+  .navbarLinks.activo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--FondoNav);
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+  }
+  .navbarLinks a {
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+/* --------------------------------------------------------------------------------------------------------------- */
