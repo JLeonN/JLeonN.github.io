@@ -30,6 +30,13 @@ body {
   background-color: var(--FondoBody);
   font-family: var(--tipografiaGeneral);
 }
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
 /* --------------------------------------------------------------------------------------------------------------- */
 /* Estilos generales */
 
@@ -47,6 +54,15 @@ body {
   }
 }
 
+.tamaño {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 88rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
 /* --------------------------------------------------------------------------------------------------------------- */
 
 /* NavBar */
@@ -57,14 +73,6 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: var(--FondoNav);
-  width: 100%;
-}
-.tamaño {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 88rem;
-  margin: 0 auto;
   width: 100%;
 }
 /* Contenedor hamburguesa */
@@ -140,3 +148,19 @@ body {
   }
 }
 /* --------------------------------------------------------------------------------------------------------------- */
+
+/* Inicio */
+
+.sobreMi {
+  padding-top: 1rem;
+}
+.fotoPerfil {
+  border-radius: 50%; /* Hacerlo redondo */
+  overflow: hidden; /* Imagen no sobresalga */
+}
+.fotoPerfil img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Recorta la imagen si no tiene las proporciones exactas */
+  border-radius: 50%; /* Redondeado a la imagen */
+}

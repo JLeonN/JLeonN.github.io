@@ -1,11 +1,16 @@
-import './App.css';
-import Nav from './Componentes/Nav/Nav';
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Nav from "./Componentes/Nav/Nav";
+import Estructura from "./Componentes/Estructura";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
+        <Estructura />
+      </div>
+    </BrowserRouter>
   );
 }
 
