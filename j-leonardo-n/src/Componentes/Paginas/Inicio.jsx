@@ -1,23 +1,40 @@
-import React from "react";
-
 function Inicio() {
   return (
     <>
-      <section className="contenedor tamaño sobreMi">
-        <div className="fotoPerfil">
-          <img src="/Imagenes/Estrella.jpg" alt="Foto del perfil" />
-        </div>
-        <h1>JLeonardoN</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos, culpa perferendis! Commodi adipisci sed exercitationem
-            ea, doloribus iusto, debitis, expedita possimus in unde molestiae
-            facilis? Architecto alias praesentium delectus quas.
-          </p>
-        </div>
-        <div>contactos</div>
-      </section>
+      <div className="dimensiones">
+        <section className="contenedor tamaño sobreMi">
+          <div className="fotoPerfil">
+            <img src="/Imagenes/Estrella.jpg" alt="Foto del perfil" />
+          </div>
+          <div className="detallesPerfil">
+            <h1 className="titulo">J.Leonardo.N</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, culpa perferendis! Commodi adipisci sed
+              exercitationem ea, doloribus iusto, debitis, expedita possimus in
+              unde molestiae facilis? Architecto alias praesentium delectus
+              quas.
+            </p>
+            <div className="iconosSociales">
+              <a href="mailto:jorgebike.75@gmail.com">Email</a>
+              <a
+                href="https://github.com/JLeonN"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/j-l-n-técnico/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
     </>
   );
 }
