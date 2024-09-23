@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 function Inicio() {
   return (
     <>
@@ -16,20 +18,22 @@ function Inicio() {
               quas.
             </p>
             <div className="iconosSociales">
-              <a href="mailto:jorgebike.75@gmail.com">Email</a>
+              <a href="mailto:jorgebike.75@gmail.com">
+                <FaEnvelope />
+              </a>
               <a
                 href="https://github.com/JLeonN"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GitHub
+                <FaGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/j-l-n-técnico/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn
+                <FaLinkedin />
               </a>
             </div>
           </div>

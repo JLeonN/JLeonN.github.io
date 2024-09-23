@@ -203,16 +203,28 @@ body {
 /* Iconos de redes sociales */
 .iconosSociales {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  justify-content: flex-start;
 }
+
 .iconosSociales a {
-  color: white;
+  color: var(--Texto);
   text-decoration: none;
-  background-color: #444;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  transition: background-color 0.3s, transform 0.3s ease;
+  font-size: 1.5rem;
 }
 .iconosSociales a:hover {
-  background-color: #6c2dc7;
+  transform: scale(1.1); /* Aumenta un poco el tamaño al hacer hover */
+}
+.iconosSociales a svg:hover {
+  color: var(--Hover);
+}
+.iconosSociales a svg {
+  font-size: 1.8rem;
+  color: var(--Texto);
 }
