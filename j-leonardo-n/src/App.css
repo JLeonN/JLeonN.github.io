@@ -168,13 +168,12 @@ body {
   padding-top: 1rem;
   width: 100%;
   margin-right: 50px;
-
 }
 .fotoPerfil {
   border-radius: 50%; /* Hacerlo redondo */
   overflow: hidden; /* Imagen no sobresalga */
   width: 300px;
-    /* max-width: 50%; */
+  /* max-width: 50%; */
 }
 .fotoPerfil img {
   width: 100%;
