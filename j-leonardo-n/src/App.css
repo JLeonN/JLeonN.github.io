@@ -190,8 +190,12 @@ body {
   justify-content: center;
   padding-left: 100px;
 }
+.detallesPerfil p {
+  color: var(--Texto);
+}
 .titulo {
   font-family: var(--tipografiaNombre);
+  color: var(--TituloH1);
   font-size: 6rem;
   margin-bottom: 1rem;
 }
@@ -228,3 +232,4 @@ body {
   font-size: 1.8rem;
   color: var(--Texto);
 }
+/* --------------------------------------------------------------------------------------------------------------- */
