@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import Linea from "../Otros/Linea";
 
 function Inicio() {
   return (
@@ -36,6 +37,7 @@ function Inicio() {
                 <FaLinkedin />
               </a>
             </div>
+        <Linea />
           </div>
         </section>
       </div>

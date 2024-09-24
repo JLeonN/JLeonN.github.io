@@ -64,6 +64,13 @@ body {
     height: 6px;
   }
 }
+.lineaDerecha {
+  display: flex;
+  justify-content: flex-end; /* Alinea la línea a la derecha */
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 0; /* Sin margen derecho */
+}
 
 .tamaño {
   display: flex;
