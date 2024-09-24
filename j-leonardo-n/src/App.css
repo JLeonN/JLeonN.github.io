@@ -164,6 +164,7 @@ body {
 
 /* Foto de perfil */
 .sobreMi {
+  display: flex;
   justify-content: space-between;
   padding-top: 1rem;
   width: 100%;
@@ -181,7 +182,6 @@ body {
   object-fit: cover; /* Recorta la imagen si no tiene las proporciones exactas */
   border-radius: 50%; /* Redondeado a la imagen */
 }
-
 /* Detalles del perfil */
 .detallesPerfil {
   flex: 1;
@@ -189,9 +189,6 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-left: 100px;
-}
-.detallesPerfil p {
-  color: var(--Texto);
 }
 .titulo {
   font-family: var(--tipografiaNombre);
@@ -202,15 +199,14 @@ body {
 .detallesPerfil p {
   font-size: 1.4rem;
   margin-bottom: 2rem;
+  color: var(--Texto);
 }
-
 /* Iconos de redes sociales */
 .iconosSociales {
   display: flex;
   gap: 2rem;
   justify-content: flex-start;
 }
-
 .iconosSociales a {
   color: var(--Texto);
   text-decoration: none;
@@ -232,4 +228,86 @@ body {
   font-size: 1.8rem;
   color: var(--Texto);
 }
-/* --------------------------------------------------------------------------------------------------------------- */
+
+/* Media queries para hacer responsivo */
+
+/* Pantallas pequeñas - menos de 768px */
+@media (max-width: 768px) {
+  .sobreMi {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0;
+  }
+  .fotoPerfil {
+    width: 200px; /* Reducir el tamaño de la imagen */
+    margin: 0 auto; /* Centrar la imagen */
+  }
+  .detallesPerfil {
+    padding-left: 0;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+  .detallesPerfil p {
+    font-size: 1.2rem;
+  }
+  .iconosSociales {
+    justify-content: center;
+  }
+  .iconosSociales a {
+    width: 50px;
+    height: 50px;
+  }
+}
+/* Pantallas medianas - entre 768px y 1200px */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .sobreMi {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  .fotoPerfil {
+    width: 250px;
+  }
+
+  .detallesPerfil {
+    padding-left: 50px;
+  }
+
+  .titulo {
+    font-size: 4rem;
+  }
+
+  .detallesPerfil p {
+    font-size: 1.3rem;
+  }
+
+  .iconosSociales a {
+    width: 55px;
+    height: 55px;
+  }
+}
+/* Pantallas grandes - más de 1200px */
+@media (min-width: 1200px) {
+  .sobreMi {
+    justify-content: space-between;
+  }
+  .fotoPerfil {
+    width: 300px;
+  }
+  .detallesPerfil {
+    padding-left: 100px;
+  }
+  .titulo {
+    font-size: 6rem;
+  }
+  .detallesPerfil p {
+    font-size: 1.4rem;
+  }
+  .iconosSociales a {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------ */
