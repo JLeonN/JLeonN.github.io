@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Inicio from "./Paginas/Inicio";
+import Comienzo from "./Paginas/Comienzo";
 
 function Estructura() {
   return (
     <Routes>
-      <Route path="/" element={<Inicio />} />
+      <Route path="/" element={<Comienzo />} />
     </Routes>
   );
 }

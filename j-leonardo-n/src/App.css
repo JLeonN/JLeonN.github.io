@@ -46,7 +46,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
 }
 /* --------------------------------------------------------------------------------------------------------------- */
 /* Estilos generales */
@@ -273,23 +272,18 @@ body {
     justify-content: space-between;
     padding: 0 1rem;
   }
-
   .fotoPerfil {
     width: 250px;
   }
-
   .detallesPerfil {
     padding-left: 50px;
   }
-
   .titulo {
     font-size: 4rem;
   }
-
   .detallesPerfil p {
     font-size: 1.3rem;
   }
-
   .iconosSociales a {
     width: 55px;
     height: 55px;
@@ -315,6 +309,84 @@ body {
   .iconosSociales a {
     width: 60px;
     height: 60px;
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Tarjeta de proyectos */
+.dimensionesTarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+/* Estilos para el tamaño de la tarjeta */
+.tamañoTarjeta {
+  flex: 1 1 calc(25% - 40px); /* 25% del ancho del contenedor */
+  max-width: 300px;
+  /* background-color: var(--ColorOpcion4); */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+.tamañoTarjeta:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 20px; */
+}
+.tarjetaImagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+}
+.tarjetaImagen img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Mantiene las proporciones de la imagen */
+  border-radius: 50%; /* Si quieres mantener la imagen redondeada */
+}
+.tarjetaTitulo {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--Texto);
+}
+.tarjetaIconos {
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+}
+.tarjetaIconos a i {
+  font-size: 1.8rem;
+  color: var(--Texto);
+  transition: color 0.3s ease;
+}
+.tarjetaIconos a:hover i {
+  color: var(--Hover);
+}
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .tamañoTarjeta {
+    flex: 1 1 calc(50% - 40px);
+  }
+}
+@media (max-width: 480px) {
+  .tamañoTarjeta {
+    flex: 1 1 100%;
+  }
+  .tarjetaTitulo {
+    font-size: 1.3rem;
+  }
+  .tarjetaIconos a i {
+    font-size: 1.5rem;
   }
 }
 /* ------------------------------------------------------------------------------------------------------------ */

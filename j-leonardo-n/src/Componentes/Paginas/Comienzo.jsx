@@ -1,7 +1,8 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Linea from "../Otros/Linea";
+import Proyectos from "./Proyectos";
 
-function Inicio() {
+function Comienzo() {
   return (
     <>
       <div className="dimensiones">
@@ -41,8 +42,9 @@ function Inicio() {
           </div>
         </section>
       </div>
+      <Proyectos />
     </>
   );
 }
 
-export default Inicio;
+export default Comienzo;
