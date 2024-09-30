@@ -1,6 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import Proyectos from "../../Paginas/Proyectos";
+import Linea from "../Linea";
 
 const LosProyectos = () => {
   return (
@@ -72,6 +73,7 @@ const LosProyectos = () => {
             </a>
           }
         />
+        <Linea />
       </section>
     </>
   );

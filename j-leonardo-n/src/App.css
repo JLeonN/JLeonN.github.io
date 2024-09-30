@@ -91,6 +91,10 @@ body {
   padding-bottom: 1rem;
   background-color: var(--FondoNav);
   width: 100%;
+  position: fixed; /* Hace que el nav se mantenga fijo */
+  top: 0; /* Posiciona el nav en la parte superior */
+  left: 0; /* Alinea el nav con el borde izquierdo */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 /* Contenedor hamburguesa */
 .contenedorHamburguesa {
@@ -172,7 +176,7 @@ body {
 .sobreMi {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem;
+  padding-top: 2.2rem;
   width: 100%;
   margin-right: 50px;
 }
@@ -320,6 +324,7 @@ body {
   gap: 20px;
   justify-content: center;
   padding: 20px;
+  padding-top: 5rem;
 }
 /* Estilos para el tamaño de la tarjeta */
 .tamañoTarjeta {
