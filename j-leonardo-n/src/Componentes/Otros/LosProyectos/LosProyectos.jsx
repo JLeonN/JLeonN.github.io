@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { AiFillGoogleCircle } from "react-icons/ai";
+import { TbWorld } from "react-icons/tb";
 import Proyectos from "../../Paginas/Proyectos";
 
 const LosProyectos = () => {
@@ -11,7 +11,7 @@ const LosProyectos = () => {
           src="/Imagenes/Cowboys - 4.png"
           alt="Imagen del proyecto The Cowboys"
           titulo="The Cowboys"
-          descripcion="hola soy un proyecto"
+          descripcion="The Cowboys es una página web creada en colaboración con amigos, donde participé en el desarrollo del front-end. La web asigna diariamente a un 'tonto del día' y un 'cowboys del día', permitiendo compartir los resultados por WhatsApp. Es un proyecto orientado a la diversión y el registro de estos roles dentro de nuestro grupo."
           gitHub={
             <a
               href="https://github.com/JLeonN/the-cowboy-day"
@@ -30,7 +30,7 @@ const LosProyectos = () => {
               rel="noopener noreferrer"
             >
               <i>
-                <AiFillGoogleCircle />
+                <TbWorld />
               </i>
             </a>
           }
