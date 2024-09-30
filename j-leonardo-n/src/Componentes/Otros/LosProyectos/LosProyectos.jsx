@@ -7,7 +7,7 @@ const LosProyectos = () => {
   return (
     <>
       {/* The Cowboys */}
-      <section className="dimensiones dimensionesTarjeta">
+      <section id="proyectos" className="dimensiones dimensionesTarjeta">
         <Proyectos
           src="/Imagenes/Cowboys - 4.png"
           alt="Imagen del proyecto The Cowboys"

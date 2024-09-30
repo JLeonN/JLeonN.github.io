@@ -14,10 +14,10 @@ function Nav() {
           <div class="linea"></div>
         </div>
         <div className={`navbarLinks ${menuAbierto ? "activo" : ""}`}>
-          <a href="#about">Sobre mí</a>
-          <a href="#projects">Proyectos</a>
-          <a href="#contact">Contacto</a>
-          <a href="#education">Educación</a>
+          <a href="#sobreMi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#educacion">Educación</a>
         </div>
         <div className="contenedorHamburguesa">
           <div className="navbarBoton" onClick={toggleMenu}>
