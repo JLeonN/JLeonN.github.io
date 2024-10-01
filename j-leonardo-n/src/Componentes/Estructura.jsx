@@ -1,11 +1,15 @@
-import { Route, Routes } from "react-router-dom";
 import Comienzo from "./Paginas/Comienzo";
+import Conocimientos from "./Paginas/Conocimientos";
+import LosProyectos from "../Componentes/Otros/LosProyectos/LosProyectos";
+
 
 function Estructura() {
   return (
-    <Routes>
-      <Route path="/" element={<Comienzo />} />
-    </Routes>
+    <>
+      <Comienzo />
+      <LosProyectos />
+      <Conocimientos />
+    </>
   );
 }
 

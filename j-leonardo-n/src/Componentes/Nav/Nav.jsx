@@ -17,7 +17,7 @@ function Nav() {
           <a href="#sobreMi">Sobre mí</a>
           <a href="#proyectos">Proyectos</a>
           <a href="#contacto">Contacto</a>
-          <a href="#educacion">Educación</a>
+          <a href="#conocimientos">Conocimientos</a>
         </div>
         <div className="contenedorHamburguesa">
           <div className="navbarBoton" onClick={toggleMenu}>

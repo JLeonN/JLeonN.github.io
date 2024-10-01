@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Linea from "../Otros/Linea";
-import LosProyectos from "../Otros/LosProyectos/LosProyectos";
 
 function Comienzo() {
   return (
@@ -42,7 +41,6 @@ function Comienzo() {
           </div>
         </section>
       </div>
-      <LosProyectos />
     </>
   );
 }

@@ -407,3 +407,34 @@ body {
   }
 }
 /* ------------------------------------------------------------------------------------------------------------ */
+
+/* Conocimientos */
+.conocimientos {
+  /* background-color: #1f1f1f; */
+  color: var(--Texto);
+  padding: 40px;
+  text-align: center;
+}
+.tituloConocimientos {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.iconosLenguajes {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(120px, 1fr)
+  ); /* Adaptación responsiva */
+  gap: 20px; /* Espacio entre iconos */
+  justify-items: center;
+}
+.icono {
+  width: 100px; /* Tamaño de los iconos */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.icono:hover {
+  transform: scale(1.1);
+}
+/* ------------------------------------------------------------------------------------------------------------ */

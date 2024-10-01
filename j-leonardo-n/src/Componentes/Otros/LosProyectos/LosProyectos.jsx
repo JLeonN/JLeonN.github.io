@@ -42,7 +42,7 @@ const LosProyectos = () => {
           src="/Imagenes/Bitácora.jpg"
           alt="Imagen del proyecto Bitácora"
           titulo="Bitácora"
-          descripcion="hola soy un proyecto"
+          descripcion="Bitácora es un programa de escritorio diseñado para registrar mis tareas diarias en el trabajo. Permite llevar un control de la cantidad de pedidos realizados, ítems rechazados, y facilita el uso de perfiles para compañeros que comparten la misma computadora. También incluye la opción de agregar notas sobre incidencias en los pedidos."
           gitHub={
             <a
               href="https://github.com/JLeonN/Bit-cora"
