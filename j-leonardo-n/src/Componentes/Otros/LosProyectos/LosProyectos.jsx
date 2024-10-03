@@ -60,7 +60,7 @@ const LosProyectos = () => {
           src="/Imagenes/SubscriptionsTracker.jpg"
           alt="Imagen del proyecto Subscriptions Tracker"
           titulo="Subscriptions Tracker"
-          descripcion="hola soy un proyecto"
+          descripcion="Este proyecto se centra en gestionar suscripciones mensuales como Netflix, Disney y HBO. El usuario ingresa el dinero disponible y el costo de sus suscripciones, y la aplicación calcula cuánto resta del presupuesto inicial, ayudando a tener un control claro de los gastos."
           gitHub={
             <a
               href="https://github.com/JLeonN/Subscriptions-Tracker"

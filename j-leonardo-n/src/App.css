@@ -430,8 +430,9 @@ body {
   justify-items: center;
 }
 .icono {
-  width: 100px; /* Tamaño de los iconos */
-  height: auto;
+  width: 120px;
+  height: 120px;
+  object-fit: contain; /* Imágenes sin distorsionarse */
   transition: transform 0.3s ease;
 }
 .icono:hover {
