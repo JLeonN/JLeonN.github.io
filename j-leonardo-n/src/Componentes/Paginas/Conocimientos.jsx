@@ -1,5 +1,3 @@
-import Linea from "../Otros/Linea";
-
 const Conocimientos = () => {
   return (
     <>
@@ -36,7 +34,6 @@ const Conocimientos = () => {
         </div>
       </section>
       <div className="dimensiones">
-        <Linea />
       </div>
     </>
   );

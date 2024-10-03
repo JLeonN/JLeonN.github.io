@@ -1,16 +1,13 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-function Comienzo() {
+function Contacto() {
   return (
     <>
       <div className="dimensiones">
-        <section className="contenedor tamaño sobreMi">
-          <div className="fotoPerfil">
-            <img src="/Imagenes/Estrella.jpg" alt="Foto del perfil" />
-          </div>
-          <div className="detallesPerfil">
-            <h1 className="titulo">J.Leonardo.N</h1>
-            <p>
+        <section id="contacto" className="contenedor tamaño">
+          <div className="contacto">
+            <h2 className="tituloContacto">CONTACTO</h2>
+            <p className="texto">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Dignissimos, culpa perferendis! Commodi adipisci sed
               exercitationem ea, doloribus iusto, debitis, expedita possimus in
@@ -43,4 +40,4 @@ function Comienzo() {
   );
 }
 
-export default Comienzo;
+export default Contacto;

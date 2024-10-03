@@ -171,7 +171,7 @@ body {
 }
 /* --------------------------------------------------------------------------------------------------------------- */
 
-/* Inicio */
+/* Comienzo */
 
 /* Foto de perfil */
 .sobreMi {
@@ -410,7 +410,6 @@ body {
 
 /* Conocimientos */
 .conocimientos {
-  /* background-color: #1f1f1f; */
   color: var(--Texto);
   padding: 40px;
   text-align: center;
@@ -437,5 +436,24 @@ body {
 }
 .icono:hover {
   transform: scale(1.1);
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Contacto */
+.contacto {
+  color: var(--Texto);
+  padding: 40px;
+  text-align: center;
+}
+.tituloContacto {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.texto {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: var(--Texto);
 }
 /* ------------------------------------------------------------------------------------------------------------ */

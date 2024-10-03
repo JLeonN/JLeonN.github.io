@@ -16,8 +16,8 @@ function Nav() {
         <div className={`navbarLinks ${menuAbierto ? "activo" : ""}`}>
           <a href="#sobreMi">Sobre mí</a>
           <a href="#proyectos">Proyectos</a>
-          <a href="#contacto">Contacto</a>
           <a href="#conocimientos">Conocimientos</a>
+          <a href="#contacto">Contacto</a>
         </div>
         <div className="contenedorHamburguesa">
           <div className="navbarBoton" onClick={toggleMenu}>

@@ -1,13 +1,13 @@
 import { FaGithub } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import Proyectos from "../../Paginas/Proyectos";
-import Linea from "../Linea";
 
 const LosProyectos = () => {
   return (
     <>
       {/* The Cowboys */}
-      <section id="proyectos" className="dimensiones dimensionesTarjeta">
+      <section id="proyectos" className="dimensiones dimensionesTarjeta contacto">
+      <h2 className="tituloContacto">Proyecto</h2>
         <Proyectos
           src="/Imagenes/Cowboys - 4.png"
           alt="Imagen del proyecto The Cowboys"
@@ -73,7 +73,6 @@ const LosProyectos = () => {
             </a>
           }
         />
-        <Linea />
       </section>
     </>
   );
