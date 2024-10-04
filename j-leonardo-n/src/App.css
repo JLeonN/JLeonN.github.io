@@ -16,14 +16,14 @@
   /* Colores */
   --FondoBody: #333333bf; /* Negro semi-transparente */
   --FondoNav: #1f1f1f; /* Gris oscuro para el nav */
-  --TituloH1: #1f3a93; /* Azul Marino */
+  --TituloH1: #264653; /* Azul petróleo */
   --Texto: #f5f5f5; /* Blanco */
   --TextoLink: #2ecc71; /* Verde Esmeralda */
-  --ColorOpcion1: #f5f5f5; /* Gris Claro */
+  --ColorOpcion1: #2a9d8f; /* Verde Azulado */
   --ColorOpcion2: #708090; /* Gris más oscuro */
   --ColorOpcion3: #d1c4e9; /* Lavanda */
   --ColorOpcion4: #ffeb3b; /* Amarillo brillante */
-  --Hover: #e74c3c; /* Rojo Suave */
+  --Hover: #e63946; /* Rojo Coral */
 }
 
 /* Body */
@@ -90,7 +90,7 @@ body {
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: var(--FondoNav);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   position: fixed; /* Hace que el nav se mantenga fijo */
   top: 0; /* Posiciona el nav en la parte superior */

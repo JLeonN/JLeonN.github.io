@@ -20,9 +20,6 @@ function Estructura() {
         <Linea />
       </div>
       <Contacto />
-      <div className="dimensiones">
-        <Linea />
-      </div>
     </>
   );
 }
