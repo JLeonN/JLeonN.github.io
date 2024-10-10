@@ -33,8 +33,6 @@ const Conocimientos = () => {
           </div>
         </div>
       </section>
-      <div className="dimensiones">
-      </div>
     </>
   );
 };
