@@ -11,11 +11,10 @@ function Comienzo() {
           <div className="detallesPerfil">
             <h1 className="titulo">J.Leonardo.N</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos, culpa perferendis! Commodi adipisci sed
-              exercitationem ea, doloribus iusto, debitis, expedita possimus in
-              unde molestiae facilis? Architecto alias praesentium delectus
-              quas.
+              Hola, gracias por visitar mi página web. Soy Leo, desarrollador
+              web con experiencia en HTML, CSS, JavaScript y React. Estoy
+              interesado en formar parte de su equipo y aportar soluciones
+              creativas y eficientes.
             </p>
             <div className="iconosSociales">
               <a href="mailto:jorgebike.75@gmail.com">

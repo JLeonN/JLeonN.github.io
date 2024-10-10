@@ -252,6 +252,7 @@ body {
   .fotoPerfil {
     width: 200px; /* Reducir el tamaño de la imagen */
     margin: 0 auto; /* Centrar la imagen */
+    padding-top: 12px;
   }
   .detallesPerfil {
     padding-left: 0;
@@ -285,6 +286,7 @@ body {
   }
   .titulo {
     font-size: 4rem;
+    padding-top: 50px;
   }
   .detallesPerfil p {
     font-size: 1.3rem;
@@ -411,7 +413,6 @@ body {
 /* Conocimientos */
 .conocimientos {
   color: var(--Texto);
-  padding: 40px;
   text-align: center;
 }
 .tituloConocimientos {
@@ -437,6 +438,16 @@ body {
 .icono:hover {
   transform: scale(1.1);
 }
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .tituloConocimientos {
+    font-size: 30px;
+  }
+  .icono {
+    width: 90px;
+    height: 90px;
+  }
+}
 /* ------------------------------------------------------------------------------------------------------------ */
 
 /* Contacto */
@@ -455,5 +466,14 @@ body {
   font-size: 1.4rem;
   margin-bottom: 2rem;
   color: var(--Texto);
+}
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .tituloContacto {
+    font-size: 30px;
+  }
+  .texto {
+    font-size: 15px;
+  }
 }
 /* ------------------------------------------------------------------------------------------------------------ */

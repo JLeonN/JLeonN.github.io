@@ -8,11 +8,9 @@ function Contacto() {
           <div className="contacto">
             <h2 className="tituloContacto">CONTACTO</h2>
             <p className="texto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dignissimos, culpa perferendis! Commodi adipisci sed
-              exercitationem ea, doloribus iusto, debitis, expedita possimus in
-              unde molestiae facilis? Architecto alias praesentium delectus
-              quas.
+              Podés contactarme a través de LinkedIn, enviarme un email o
+              explorar mis proyectos en GitHub. Estoy disponible para charlar
+              sobre nuevas oportunidades.
             </p>
             <div className="iconosSociales">
               <a href="mailto:jorgebike.75@gmail.com">
