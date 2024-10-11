@@ -9,7 +9,7 @@ function Comienzo() {
             <img src="/Imagenes/Estrella.jpg" alt="Foto del perfil" />
           </div>
           <div className="detallesPerfil">
-            <h1 className="titulo">J.Leonardo.N</h1>
+            <h1 className="titulo">Leonardo Núñez</h1>
             <p>
               Hola, gracias por visitar mi página web. Soy Leo, desarrollador
               web con experiencia en HTML, CSS, JavaScript y React. Estoy
