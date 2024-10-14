@@ -478,3 +478,30 @@ body {
   }
 }
 /* ------------------------------------------------------------------------------------------------------------ */
+
+/* Estilo para la sección de no-script */
+.javaScriptDeshabilitado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--FondoBody);
+  color: var(--Texto);
+  padding: 2rem;
+  height: 100vh;
+}
+.javaScriptDeshabilitado h2 {
+  font-family: var(--tipografiaGeneral);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.javaScriptDeshabilitado p {
+  font-family: var(--tipografiaGeneral);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.javaScriptDeshabilitadoImagen {
+  max-width: 200px;
+  margin-top: 1rem;
+}
