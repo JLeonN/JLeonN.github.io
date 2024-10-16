@@ -1,4 +1,9 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaFileDownload,
+} from "react-icons/fa";
 
 function Comienzo() {
   return (
@@ -17,13 +22,14 @@ function Comienzo() {
               creativas y eficientes.
             </p>
             <div className="iconosSociales">
-              <a href="mailto:jorgebike.75@gmail.com">
+              <a href="mailto:jorgebike.75@gmail.com" title="Envíame un correo">
                 <FaEnvelope />
               </a>
               <a
                 href="https://github.com/JLeonN"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Visita mi GitHub"
               >
                 <FaGithub />
               </a>
@@ -31,8 +37,16 @@ function Comienzo() {
                 href="https://www.linkedin.com/in/j-l-n-técnico/"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="Visita mi perfil en LinkedIn"
               >
                 <FaLinkedin />
+              </a>
+              <a
+                href="C.V/C.V.Programación.pdf"
+                download="C.V - Leonardo Núñez.pdf"
+                title="Descarga mi C.V."
+              >
+                <FaFileDownload />
               </a>
             </div>
           </div>
