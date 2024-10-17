@@ -16,6 +16,7 @@ function Nav() {
         <div className={`navbarLinks ${menuAbierto ? "activo" : ""}`}>
           <a href="#proyectos">Proyectos</a>
           <a href="#conocimientos">Conocimientos</a>
+          <a href="#sobreMi">Sobre mi</a>
           <a href="#contacto">Contacto</a>
         </div>
         <div className="contenedorHamburguesa">

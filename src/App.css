@@ -505,3 +505,20 @@ body {
   max-width: 200px;
   margin-top: 1rem;
 }
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Sobre mi */
+.tituloSobreMi{
+  color: var(--Texto);
+  text-align: center;
+  padding-top: 50px;
+}
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .tituloContacto {
+    font-size: 30px;
+  }
+  .texto {
+    font-size: 15px;
+  }
+}
