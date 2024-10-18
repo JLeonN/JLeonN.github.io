@@ -522,4 +522,26 @@ body {
     font-size: 15px;
   }
 }
+.behance {
+  color: var(--Texto);
+  text-decoration: none;
+  position: relative; /* Necesario para el efecto de subrayado */
+  transition: color 0.3s ease;
+}
+.behance::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px; /* Grosor de la línea subrayada */
+  background-color: var(--Hover);
+  transition: width 0.3s ease;
+}
+.behance:hover {
+  color: var(--Hover);
+}
+.behance:hover::after {
+  width: 100%; /* La línea se expande completamente al hacer hover */
+}
 /* ------------------------------------------------------------------------------------------------------------ */

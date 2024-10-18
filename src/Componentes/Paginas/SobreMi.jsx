@@ -9,7 +9,11 @@ function SobreMi() {
             Sobre mi
           </h2>
           <p className="texto">
-            Soy Leo, un apasionado del mundo de las bicicletas con amplia
+            Soy Leo, un apasionado de la tecnología que actualmente se está
+            formando en programación web, enfocándome en HTML, CSS, JavaScript y
+            React, con la meta de transicionar al desarrollo web. Estoy
+            emocionado por las nuevas oportunidades en el mundo tecnológico.
+            Además, soy un entusiasta del mundo de las bicicletas con amplia
             experiencia técnica. Trabajé más de 5 años en Motociclo, avanzando
             de armador a técnico y siendo el referente del área de servicio
             técnico de bicicletas. Tras el cierre de la empresa, me uní a
@@ -18,10 +22,17 @@ function SobreMi() {
             siempre crecer, estudié electrónica básica para especializarme en
             bicicletas eléctricas y cursé publicidad y marketing en Brother
             Montevideo, logrando reconocimientos en eventos de la industria.
-            Actualmente, me estoy formando en programación web, con foco en
-            HTML, CSS, JavaScript y React, con la meta de transicionar al
-            desarrollo web. Estoy emocionado por las nuevas oportunidades en el
-            mundo tecnológico.
+            Puedes ver algunos de mis trabajos en{" "}
+            <span>
+              <a
+                className="behance"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.behance.net/JLeoNP"
+              >
+                mi carpeta de Behance.
+              </a>
+            </span>
           </p>
         </dir>
       </section>
