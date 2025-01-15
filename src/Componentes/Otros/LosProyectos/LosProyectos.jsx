@@ -9,7 +9,37 @@ const LosProyectos = () => {
         id="proyectos"
         className="dimensiones dimensionesTarjeta contacto"
       >
-        <h2 className="tituloContacto">Proyecto</h2>
+        <h2 className="tituloContacto">Proyectos</h2>
+
+        {/* Cronómetro */}
+        <Proyectos
+          src="/Imagenes/Cronómetro.jpg"
+          alt="Imagen del proyecto Cronómetro"
+          titulo="Cronómetro"
+          descripcion="Este cronómetro es una aplicación desarrollada en React que permite medir tiempos con precisión y eficiencia. Ofrece funciones como inicio, pausa y detención, lo que facilita el control del cronómetro. Además, cuenta con una interfaz limpia y amigable, asegurando que cualquier persona pueda utilizarla sin complicaciones."
+          gitHub={
+            <a
+              href="https://github.com/JLeonN/Cronometro"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaGithub />
+              </i>
+            </a>
+          }
+          // enProduccion={
+          //   <a
+          //     href="https://github.com/JLeonN/Cronometro"
+          //     target="_blank"
+          //     rel="noopener noreferrer"
+          //   >
+          //     <i>
+          //       <TbWorld />
+          //     </i>
+          //   </a>
+          // }
+        />
 
         {/* The Cowboys */}
         <Proyectos
