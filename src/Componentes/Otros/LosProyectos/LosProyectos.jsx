@@ -5,9 +5,13 @@ import Proyectos from "../../Paginas/Proyectos";
 const LosProyectos = () => {
   return (
     <>
-      {/* The Cowboys */}
-      <section id="proyectos" className="dimensiones dimensionesTarjeta contacto">
-      <h2 className="tituloContacto">Proyecto</h2>
+      <section
+        id="proyectos"
+        className="dimensiones dimensionesTarjeta contacto"
+      >
+        <h2 className="tituloContacto">Proyecto</h2>
+
+        {/* The Cowboys */}
         <Proyectos
           src="/Imagenes/Cowboys - 4.png"
           alt="Imagen del proyecto The Cowboys"
@@ -55,6 +59,7 @@ const LosProyectos = () => {
             </a>
           }
         />
+
         {/* Subscriptions Tracker */}
         <Proyectos
           src="/Imagenes/SubscriptionsTracker.jpg"
