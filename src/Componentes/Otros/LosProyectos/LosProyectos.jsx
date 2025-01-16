@@ -28,17 +28,17 @@ const LosProyectos = () => {
               </i>
             </a>
           }
-          // enProduccion={
-          //   <a
-          //     href="https://github.com/JLeonN/Cronometro"
-          //     target="_blank"
-          //     rel="noopener noreferrer"
-          //   >
-          //     <i>
-          //       <TbWorld />
-          //     </i>
-          //   </a>
-          // }
+          enProduccion={
+            <a
+              href="https://jleonn.github.io/Cronometro/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <TbWorld />
+              </i>
+            </a>
+          }
         />
 
         {/* The Cowboys */}
