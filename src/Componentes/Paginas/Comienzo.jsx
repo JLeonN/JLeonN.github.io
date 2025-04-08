@@ -11,7 +11,7 @@ function Comienzo() {
       <div className="dimensiones">
         <section className="contenedor tamaño sobreMi">
           <div className="fotoPerfil">
-            <img src="/Imagenes/Estrella.jpg" alt="Foto del perfil" />
+            <img src="/Imagenes/FotoPerfil.jpeg" alt="Foto del perfil" />
           </div>
           <div className="detallesPerfil">
             <h1 className="titulo">Leonardo Núñez</h1>

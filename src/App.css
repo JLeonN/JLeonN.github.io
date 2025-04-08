@@ -183,16 +183,15 @@ body {
   margin-right: 50px;
 }
 .fotoPerfil {
+  width: 300px;
+  height: 300px;
   border-radius: 50%; /* Hacerlo redondo */
   overflow: hidden; /* Imagen no sobresalga */
-  width: 300px;
-  /* max-width: 50%; */
 }
 .fotoPerfil img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Recorta la imagen si no tiene las proporciones exactas */
-  border-radius: 50%; /* Redondeado a la imagen */
 }
 /* Detalles del perfil */
 .detallesPerfil {
@@ -251,9 +250,9 @@ body {
     margin-right: 0;
   }
   .fotoPerfil {
-    width: 200px; /* Reducir el tamaño de la imagen */
+    width: 200px;
+    height: 200px;
     margin: 0 auto; /* Centrar la imagen */
-    padding-top: 12px;
   }
   .detallesPerfil {
     padding-left: 0;
@@ -281,6 +280,7 @@ body {
   }
   .fotoPerfil {
     width: 250px;
+    height: 250px;
   }
   .detallesPerfil {
     padding-left: 50px;
