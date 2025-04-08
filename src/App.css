@@ -334,6 +334,7 @@ body {
 .tamañoTarjeta {
   flex: 1 1 calc(25% - 40px); /* 25% del ancho del contenedor */
   max-width: 300px;
+  width: 300px;
   /* background-color: var(--ColorOpcion4); */
   /* border-radius: 10px; */
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
@@ -347,38 +348,40 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding-top: 20px; */
+  height: 100%;
 }
+/* Estilos para la imagen de la tarjeta */
 .tarjetaImagen {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   border-radius: 50%;
 }
-
 .tarjetaImagen img {
   width: 100%;
-  height: auto; /* Mantiene la proporción de la imagen */
+  height: 100%;
+  object-fit: cover;
 }
+/* Título de la tarjeta */
 .tarjetaTitulo {
   margin: 15px 0;
   font-size: 1.5rem;
   text-align: center;
   color: var(--Texto);
 }
+/* Descripción de la tarjeta */
 .descripcion {
   text-align: center;
   font-size: 1rem;
   line-height: 1.5;
   color: var(--Texto);
   margin: 10px 0;
-  /* padding-top: 1px; */
-  /* background-color: rgba(0, 0, 0, 0.05); */
   border-radius: 8px;
 }
+/* Iconos en la tarjeta */
 .tarjetaIconos {
   display: flex;
   gap: 0px;
