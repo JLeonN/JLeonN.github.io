@@ -11,12 +11,42 @@ const LosProyectos = () => {
       >
         <h2 className="tituloContacto">Proyectos</h2>
 
-        {/* Cronómetro */}
+        {/* Cronómetro App */}
         <Proyectos
-          src="/Imagenes/Cronómetro.jpg"
-          alt="Imagen del proyecto Cronómetro"
-          titulo="Cronómetro"
-          descripcion="Este cronómetro es una aplicación desarrollada en React que permite medir tiempos con precisión y eficiencia. Ofrece funciones como inicio, pausa y detención, lo que facilita el control del cronómetro. Además, cuenta con una interfaz limpia y amigable, asegurando que cualquier persona pueda utilizarla sin complicaciones."
+          src="/Imagenes/CronómetroApp.png"
+          alt="Imagen del proyecto Cronómetro App"
+          titulo="Cronómetro App"
+          descripcion="El Cronómetro App es una aplicación móvil desarrollada en React Native que permite medir tiempos con precisión y eficiencia. Ofrece funciones como inicio, pausa y detención, lo que facilita el control del cronómetro. Su interfaz es limpia y amigable, asegurando una experiencia de usuario sencilla y accesible para cualquier persona."
+          gitHub={
+            <a
+              href="https://github.com/JLeonN/Cronometro-APP"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaGithub />
+              </i>
+            </a>
+          }
+          enProduccion={
+            <a
+              href="https://play.google.com/store/apps/details?id=com.yojorge.Nombredemiproyecto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <TbWorld />
+              </i>
+            </a>
+          }
+        />
+
+        {/* Cronómetro Web */}
+        <Proyectos
+          src="/Imagenes/CronómetroWeb.jpg"
+          alt="Imagen del proyecto Cronómetro Web"
+          titulo="Cronómetro Web"
+          descripcion="Este Cronómetro Web es una aplicación web desarrollada en React que permite medir tiempos con precisión y eficiencia. Con funcionalidades como inicio, pausa y detención, es fácil controlar el cronómetro. Su diseño es limpio y accesible, lo que garantiza que cualquier usuario pueda utilizarla sin dificultades."
           gitHub={
             <a
               href="https://github.com/JLeonN/Cronometro"
