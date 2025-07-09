@@ -6,6 +6,19 @@ const Conocimientos = () => {
           <h2 className="tituloConocimientos">CONOCIMIENTOS</h2>
           <div className="iconosLenguajes">
             <img
+              src="/Imagenes/IconosDeLenguajes/React.png"
+              alt="React"
+              className="icono"
+            /><img
+              src="/Imagenes/IconosDeLenguajes/React-Native.png"
+              alt="React"
+              className="icono"
+            /><img
+              src="/Imagenes/IconosDeLenguajes/Expo.png"
+              alt="React"
+              className="icono"
+            />
+            <img
               src="/Imagenes/IconosDeLenguajes/HTML.png"
               alt="HTML5"
               className="icono"
@@ -18,11 +31,6 @@ const Conocimientos = () => {
             <img
               src="/Imagenes/IconosDeLenguajes/JavaScript.png"
               alt="JavaScript"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/React.png"
-              alt="React"
               className="icono"
             />
             <img
