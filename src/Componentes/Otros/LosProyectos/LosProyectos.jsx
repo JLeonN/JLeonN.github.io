@@ -39,6 +39,13 @@ const LosProyectos = () => {
               </i>
             </a>
           }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/React-Native.png",
+            "/Imagenes/IconosDeLenguajes/Expo.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
         />
 
         {/* Cronómetro Web */}
@@ -69,6 +76,12 @@ const LosProyectos = () => {
               </i>
             </a>
           }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/React.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
         />
 
         {/* The Cowboys */}
@@ -99,6 +112,13 @@ const LosProyectos = () => {
               </i>
             </a>
           }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/React.png",
+            "/Imagenes/IconosDeLenguajes/Bootstrap.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
         />
 
         {/* Bitácora */}
@@ -118,6 +138,12 @@ const LosProyectos = () => {
               </i>
             </a>
           }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/React-Electron.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
         />
 
         {/* Subscriptions Tracker */}
@@ -137,6 +163,12 @@ const LosProyectos = () => {
               </i>
             </a>
           }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/React.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
         />
       </section>
     </>

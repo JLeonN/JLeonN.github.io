@@ -9,13 +9,20 @@ const Conocimientos = () => {
               src="/Imagenes/IconosDeLenguajes/React.png"
               alt="React"
               className="icono"
-            /><img
+            />
+            <img
               src="/Imagenes/IconosDeLenguajes/React-Native.png"
-              alt="React"
+              alt="React Native"
               className="icono"
-            /><img
+            />
+            <img
+              src="/Imagenes/IconosDeLenguajes/React-Electron.png"
+              alt="React Electron"
+              className="icono"
+            />
+            <img
               src="/Imagenes/IconosDeLenguajes/Expo.png"
-              alt="React"
+              alt="Expo"
               className="icono"
             />
             <img

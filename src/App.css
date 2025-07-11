@@ -548,3 +548,162 @@ body {
   width: 100%; /* La línea se expande completamente al hacer hover */
 }
 /* ------------------------------------------------------------------------------------------------------------ */
+
+.tarjetaProyecto {
+  display: flex;
+  align-items: center;
+  background-color: var(--FondoNav);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  min-height: 300px; /* o el valor que se ajuste al contenido más largo */
+}
+.tarjetaProyecto.abierta {
+  background-color: var(--FondoNav);
+}
+/* Centrado cuando la tarjeta está cerrada */
+.tarjetaProyecto:not(.abierta) .contenedorLogo {
+  margin: 0 auto;
+  text-align: center;
+}
+.contenedorLogo {
+  flex-shrink: 0;
+  width: 180px;
+  text-align: center;
+  transition: all 0.5s ease;
+  margin: 0; /* por si viene auto de antes */
+}
+.logoProyecto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.tituloProyecto {
+  margin-top: 1rem;
+  color: var(--Texto);
+}
+.tarjetaProyecto.abierta .logoProyecto {
+  width: 140px;
+  height: 140px;
+  transform: translateX(
+    -15px
+  ); /* opcional, para animar un poco a la izquierda */
+}
+.contenidoProyecto {
+  flex-grow: 1;
+  padding-left: 2rem;
+  animation: aparecer 0.6s ease forwards;
+  color: var(--Texto);
+}
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.tituloExpandido {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+.descripcionExpandida {
+  max-height: 110px;
+  overflow-y: auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-right: 1rem;
+  margin: 10px 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.descripcionExpandida::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+}
+.tecnologiasUsadas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+}
+.iconoTecnologia {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+/* Botones */
+
+.botonesProyecto {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+.botonesProyecto a {
+  width: auto !important; /* 🔒 fuerza que el botón solo mida lo que ocupa su contenido */
+  max-width: max-content; /* 🔒 asegura que no se estire */
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--Texto);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.botonesProyecto a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--Hover);
+  transition: width 0.3s ease-in-out;
+}
+.botonesProyecto a:hover::after {
+  width: 100%;
+}
+.botonesProyecto a:hover {
+  color: var(--Hover);
+}
+/* Responsive: hasta 2-3 tarjetas por fila */
+@media (min-width: 768px) {
+  .contenedorTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .tarjetaProyecto {
+    flex: 1 1 calc(45% - 2rem);
+    max-width: 600px;
+  }
+}
+/* Línea centrada */
+.liniaPro {
+  width: 320px;
+  height: 4px;
+  background-color: var(--Texto);
+  border-radius: 2px;
+  margin: 10px auto;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
