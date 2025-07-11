@@ -25,19 +25,19 @@ const Conocimientos = () => {
               alt="Expo"
               className="icono"
             />
+              <img
+                src="/Imagenes/IconosDeLenguajes/JavaScript.png"
+                alt="JavaScript"
+                className="icono"
+              />
+              <img
+                src="/Imagenes/IconosDeLenguajes/CSS.png"
+                alt="CSS3"
+                className="icono"
+              />
             <img
               src="/Imagenes/IconosDeLenguajes/HTML.png"
               alt="HTML5"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/CSS.png"
-              alt="CSS3"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/JavaScript.png"
-              alt="JavaScript"
               className="icono"
             />
             <img
