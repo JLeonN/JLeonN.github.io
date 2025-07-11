@@ -706,4 +706,44 @@ body {
   border-radius: 2px;
   margin: 10px auto;
 }
+/* Responsive: línea más pequeña en pantallas pequeñas */
+@media (max-width: 768px) {
+  .tarjetaProyecto {
+    flex-direction: column; /* Cambia de fila a columna */
+    align-items: center;
+    text-align: center;
+    min-height: unset; /* Para que no obligue a una altura grande en pantallas chicas */
+    padding: 15px;
+  }
+  .contenedorLogo {
+    margin: 0 auto;
+    width: auto;
+  }
+  .contenidoProyecto {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+  .logoProyecto {
+    width: 120px; /* Tamaño del logo en móviles */
+    height: 120px;
+  }
+  .tarjetaProyecto.abierta .logoProyecto {
+    width: 100px;
+    height: 100px;
+    transform: none;
+  }
+  .tituloExpandido {
+    font-size: 1.3rem;
+  }
+  .descripcionExpandida {
+    max-height: 200px;
+  }
+  .botonesProyecto {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .tecnologiasUsadas {
+    justify-content: center;
+  }
+}
 /* ------------------------------------------------------------------------------------------------------------ */
