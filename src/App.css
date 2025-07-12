@@ -438,6 +438,7 @@ body {
   height: 120px;
   object-fit: contain; /* Imágenes sin distorsionarse */
   transition: transform 0.3s ease;
+  border: none !important;
 }
 .icono:hover {
   transform: scale(1.1);
@@ -647,7 +648,8 @@ body {
 
 .botonesProyecto {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: nowrap;
+  gap: 2.5rem;
   justify-content: flex-start;
 }
 .botonesProyecto a {
@@ -747,3 +749,133 @@ body {
   }
 }
 /* ------------------------------------------------------------------------------------------------------------ */
+/* Tarjeta Conocimiento */
+.tarjetaConocimiento {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 600px;
+  min-width: unset;
+  margin: 20px auto;
+  padding: 12px 108px 18px 18px;
+  background-color: var(--FondoNav);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  animation: aparecerSuave 0.4s ease forwards;
+  transition: all 0.3s ease;
+}
+.tarjetaConocimiento {
+  position: absolute;
+  right: 0;
+  transform: translateX(5%);
+}
+/* Título de la tarjeta de conocimiento */
+.mensaje {
+  margin-bottom: 22px;
+  color: var(--Texto);
+  font-size: 1.1rem;
+  text-align: left;
+  display: inline-block;
+  white-space: pre-line;
+  max-width: 100%;
+}
+/* Contenedor de proyectos en columna */
+.contenidoTarjetaConocimiento {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 10px;
+  width: 100%;
+}
+/* Cada proyecto ocupa toda la fila */
+.infoProyecto {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  min-width: 0;
+}
+/* Icono del proyecto: siempre redondo */
+.iconoProyecto {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.tituloProyectoTecnologia {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: var(--Texto);
+  max-width: 320px;
+  padding-left: 1px;
+}
+/* RESPONSIVE - CONOCIMIENTOS Y TARJETA */
+@media (max-width: 600px) {
+  .tarjetaConocimiento {
+    position: absolute;
+    position: static;
+    max-width: 95vw;
+    margin-top: -25px;
+    padding: 8px 6vw 8px 6vw;
+    width: 90vw;
+    right: 0;
+    left: 0;
+    transform: none;
+    width: 100vw;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    width: calc(100vw - 32vw);
+    padding: 16px;
+    max-width: none;
+    box-sizing: border-box;
+  }
+  .mensaje {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+  .contenidoTarjetaConocimiento {
+    gap: 0.8rem;
+  }
+  .tituloProyectoTecnologia {
+    white-space: normal;
+  }
+  /* Botones */
+  .botonesProyecto {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .botonesProyecto a {
+    width: 100%;
+    max-width: unset;
+  }
+  /* Icono de Proyecto */
+  .infoProyecto {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding-left: 0;
+  }
+  .iconoProyecto {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .tituloProyectoTecnologia {
+    font-size: 1rem;
+    white-space: normal;
+    text-align: left;
+    line-height: 1.3;
+  }
+}

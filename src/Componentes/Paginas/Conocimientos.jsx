@@ -1,58 +1,93 @@
+import { useState } from "react";
+import TarjetaConocimiento from "../Otros/TarjetaConocimiento";
+import proyectos from "../Otros/LosProyectos/proyectos";
+
+const iconos = [
+  {
+    nombre: "React",
+    src: "/Imagenes/IconosDeLenguajes/React.png",
+  },
+  {
+    nombre: "React Native",
+    src: "/Imagenes/IconosDeLenguajes/React-Native.png",
+  },
+  {
+    nombre: "React Electron",
+    src: "/Imagenes/IconosDeLenguajes/React-Electron.png",
+  },
+  {
+    nombre: "Expo",
+    src: "/Imagenes/IconosDeLenguajes/Expo.png",
+  },
+  {
+    nombre: "JavaScript",
+    src: "/Imagenes/IconosDeLenguajes/JavaScript.png",
+  },
+  {
+    nombre: "CSS3",
+    src: "/Imagenes/IconosDeLenguajes/CSS.png",
+  },
+  {
+    nombre: "HTML5",
+    src: "/Imagenes/IconosDeLenguajes/HTML.png",
+  },
+  {
+    nombre: "Bootstrap",
+    src: "/Imagenes/IconosDeLenguajes/Bootstrap.png",
+  },
+];
+
 const Conocimientos = () => {
+  const [tecnologiaSeleccionada, setTecnologiaSeleccionada] = useState(null);
+
+  const handleIconClick = (nombre) => {
+    setTecnologiaSeleccionada(
+      tecnologiaSeleccionada === nombre ? null : nombre
+    );
+  };
+
   return (
     <>
       <section id="conocimientos" className="dimensiones">
         <div className="conocimientos">
           <h2 className="tituloConocimientos">CONOCIMIENTOS</h2>
           <div className="iconosLenguajes">
-            <img
-              src="/Imagenes/IconosDeLenguajes/React.png"
-              alt="React"
-              title="React"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/React-Native.png"
-              alt="React Native"
-              title="React Native"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/React-Electron.png"
-              alt="React Electron"
-              title="React Electron"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/Expo.png"
-              alt="Expo"
-              title="Expo"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/JavaScript.png"
-              alt="JavaScript"
-              title="JavaScript"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/CSS.png"
-              alt="CSS3"
-              title="CSS3"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/HTML.png"
-              alt="HTML5"
-              title="HTML5"
-              className="icono"
-            />
-            <img
-              src="/Imagenes/IconosDeLenguajes/Bootstrap.png"
-              alt="Bootstrap"
-              title="Bootstrap"
-              className="icono"
-            />
+            {iconos.map((icono) => (
+              <div key={icono.nombre} style={{ position: "relative" }}>
+                <img
+                  src={icono.src}
+                  alt={icono.nombre}
+                  title={icono.nombre}
+                  className="icono"
+                  style={{
+                    border:
+                      tecnologiaSeleccionada === icono.nombre
+                        ? "3px solid var(--Hover)"
+                        : "none",
+                    borderRadius: "16px",
+                    cursor: "pointer",
+                  }}
+                  onClick={() => handleIconClick(icono.nombre)}
+                />
+                {tecnologiaSeleccionada === icono.nombre && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "130px",
+                      left: 0,
+                      width: "100%",
+                      zIndex: 10,
+                    }}
+                  >
+                    <TarjetaConocimiento
+                      tecnologia={icono.nombre}
+                      proyectos={proyectos}
+                      cerrar={() => setTecnologiaSeleccionada(null)}
+                    />
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>
