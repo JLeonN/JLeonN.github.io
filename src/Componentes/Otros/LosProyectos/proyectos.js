@@ -30,7 +30,8 @@ const proyectos = [
     titulo: "Subscriptions Tracker",
     src: "/Imagenes/SubscriptionsTracker.jpg",
     tecnologias: ["React", "JavaScript", "CSS3", "HTML5"],
-    gitHub: "https://github.com/JLeonN/Subscriptions-Tracker"
+    gitHub: "https://github.com/JLeonN/Subscriptions-Tracker",
+    enProduccion: "https://jleonn.github.io/Subscriptions-Tracker/"
   }
 ];
 

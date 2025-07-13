@@ -163,6 +163,17 @@ const LosProyectos = () => {
               </i>
             </a>
           }
+          enProduccion={
+            <a
+              href="https://jleonn.github.io/Subscriptions-Tracker/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <TbWorld />
+              </i>
+            </a>
+          }
           tecnologias={[
             "/Imagenes/IconosDeLenguajes/React.png",
             "/Imagenes/IconosDeLenguajes/JavaScript.png",
