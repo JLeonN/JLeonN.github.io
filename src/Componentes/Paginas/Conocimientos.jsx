@@ -16,6 +16,10 @@ const iconos = [
     src: "/Imagenes/IconosDeLenguajes/React-Electron.png",
   },
   {
+    nombre: "Vue",
+    src: "/Imagenes/IconosDeLenguajes/Vue.png",
+  },
+  {
     nombre: "Expo",
     src: "/Imagenes/IconosDeLenguajes/Expo.png",
   },

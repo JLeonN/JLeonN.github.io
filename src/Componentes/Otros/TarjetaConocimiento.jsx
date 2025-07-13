@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 
 function TarjetaConocimiento({ tecnologia, proyectos, cerrar }) {
@@ -22,9 +22,7 @@ function TarjetaConocimiento({ tecnologia, proyectos, cerrar }) {
 
   return (
     <div className="tarjetaConocimiento" ref={tarjetaRef}>
-      <p className="mensaje">
-        Proyectos construidos con {tecnologia}
-      </p>
+      <p className="mensaje">Proyectos construidos con {tecnologia}</p>
       {proyectosFiltrados.length > 0 ? (
         proyectosFiltrados.map((proyecto, index) => (
           <div key={index} className="contenidoTarjetaConocimiento">
@@ -61,7 +59,34 @@ function TarjetaConocimiento({ tecnologia, proyectos, cerrar }) {
           </div>
         ))
       ) : (
-        <p className="sinProyectos">No hay proyectos con esta tecnología.</p>
+        <div className="seccionSinProyectos">
+          <p className="sinProyectos">
+            Todavía no tengo un proyecto con {tecnologia}, pero podés
+            contactarme y preguntarme cómo voy. Seguramente esté estudiándola{" "}
+            {tecnologia}.
+          </p>
+          <div className="iconosSociales">
+            <a href="mailto:jorgebike.75@gmail.com" title="Envíame un correo">
+              <FaEnvelope />
+            </a>
+            <a
+              href="https://github.com/JLeonN"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Visita mi GitHub"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/j-l-n-técnico/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Visita mi perfil en LinkedIn"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+        </div>
       )}
     </div>
   );

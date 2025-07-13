@@ -755,20 +755,18 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 100%;
-  max-width: 600px;
-  min-width: unset;
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  box-sizing: border-box;
   margin: 20px auto;
-  padding: 12px 108px 18px 18px;
+  padding: 16px 24px;
   background-color: var(--FondoNav);
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   animation: aparecerSuave 0.4s ease forwards;
   transition: all 0.3s ease;
-}
-.tarjetaConocimiento {
   position: absolute;
-  right: 0;
   transform: translateX(5%);
 }
 /* Título de la tarjeta de conocimiento */
@@ -807,6 +805,7 @@ body {
   border-radius: 50%;
 }
 .tituloProyectoTecnologia {
+  width: 180px;
   display: inline-block;
   white-space: nowrap;
   font-size: 1.08rem;
@@ -814,7 +813,27 @@ body {
   color: var(--Texto);
   max-width: 320px;
   padding-left: 1px;
+  text-align: left;
 }
+/* Sin proyectos */
+.sinProyectos {
+  width: 280px;
+  height: auto;
+  text-align: left;
+  color: var(--Texto);
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.seccionSinProyectos .iconosSociales {
+  gap: 8px;
+}
+.seccionSinProyectos .iconosSociales a {
+  padding-top: 15px;
+  width: 40px;
+  height: auto;
+  font-size: 1.2rem;
+}
+
 /* RESPONSIVE - CONOCIMIENTOS Y TARJETA */
 @media (max-width: 600px) {
   .tarjetaConocimiento {
@@ -841,9 +860,6 @@ body {
   }
   .contenidoTarjetaConocimiento {
     gap: 0.8rem;
-  }
-  .tituloProyectoTecnologia {
-    white-space: normal;
   }
   /* Botones */
   .botonesProyecto {
