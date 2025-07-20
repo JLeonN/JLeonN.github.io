@@ -20,6 +20,10 @@ const iconos = [
     src: "/Imagenes/IconosDeLenguajes/Vue.png",
   },
   {
+    nombre: "Quasar",
+    src: "/Imagenes/IconosDeLenguajes/Quasar.png",
+  },
+  {
     nombre: "Expo",
     src: "/Imagenes/IconosDeLenguajes/Expo.png",
   },
