@@ -11,6 +11,42 @@ const LosProyectos = () => {
       >
         <h2 className="tituloContacto">Proyectos</h2>
 
+        {/* Pokédex */}
+        <Proyectos
+          src="/Imagenes/Pokeball.png"
+          alt="Imagen del proyecto de la Pokédex"
+          titulo="Pokédex"
+          descripcion="La Pokédex es una aplicación web desarrollada con Vue.js que permite buscar Pokémon por nombre o ID. Muestra información detallada como tipos, estadísticas y evolución. Cuenta con una interfaz visual clara y organizada, y consume datos directamente desde la API oficial de PokéAPI."
+          gitHub={
+            <a
+              href="https://github.com/JLeonN/Pokedex"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaGithub />
+              </i>
+            </a>
+          }
+          enProduccion={
+            <a
+              href="https://jleonn.github.io/Pokedex/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <TbWorld />
+              </i>
+            </a>
+          }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/Vue.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
+        />
+
         {/* Cronómetro App */}
         <Proyectos
           src="/Imagenes/CronómetroApp.png"
