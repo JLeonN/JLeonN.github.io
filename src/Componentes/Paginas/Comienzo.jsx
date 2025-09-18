@@ -17,7 +17,7 @@ function Comienzo() {
             <h1 className="titulo">Leonardo Núñez</h1>
             <p>
               Hola, gracias por visitar mi página web. Soy Leo, desarrollador
-              web con experiencia en HTML, CSS, JavaScript y React. Estoy
+              web con experiencia en Vue, Quasar, React, JavaScript, CSS y HTML. Estoy
               interesado en formar parte de su equipo y aportar soluciones
               creativas y eficientes.
             </p>

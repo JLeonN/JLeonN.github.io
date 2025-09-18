@@ -1,4 +1,12 @@
 const proyectos = [
+    /* Bitácora II */
+  {
+    titulo: "Bitácora II",
+    src: "/Imagenes/Bitácora-II.png",
+    tecnologias: ["Vue", "Quasar", "JavaScript", "CSS3", "HTML5"],
+    gitHub: "https://github.com/JLeonN/Bit-cora-2-App-1",
+    enProduccion: "https://play.google.com/store/apps/details?id=bitacora.v2"
+  },
   /* Pokédex */
   {
     titulo: "Pokédex",

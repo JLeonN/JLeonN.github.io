@@ -11,6 +11,43 @@ const LosProyectos = () => {
       >
         <h2 className="tituloContacto">Proyectos</h2>
 
+        {/* Bitácora II */}
+        <Proyectos
+          src="/Imagenes/Bitácora-II.png"
+          alt="Imagen del proyecto de la Bitácora II"
+          titulo="Bitácora II - APP"
+          descripcion="Bitácora II es una app móvil creada para modernizar el registro de pedidos y ubicaciones en el depósito. Permite escanear códigos, generar Excel automáticamente y agilizar tareas, eliminando el doble trabajo y aprovechando la tecnología disponible. Compatible con el sistema actual y pensada para facilitar el día a día."
+          gitHub={
+            <a
+              href="https://github.com/JLeonN/Bit-cora-2-App-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaGithub />
+              </i>
+            </a>
+          }
+          enProduccion={
+            <a
+              href="https://play.google.com/store/apps/details?id=bitacora.v2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <TbWorld />
+              </i>
+            </a>
+          }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/Vue.png",
+            "/Imagenes/IconosDeLenguajes/Quasar.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
+        />
+
         {/* Pokédex */}
         <Proyectos
           src="/Imagenes/Pokeball.png"
