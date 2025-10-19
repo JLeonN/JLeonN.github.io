@@ -38,7 +38,7 @@ const proyectos = [
     src: "/Imagenes/Cowboys - 4.png",
     tecnologias: ["React", "Bootstrap", "JavaScript", "CSS3", "HTML5"],
     gitHub: "https://github.com/JLeonN/the-cowboy-day",
-    enProduccion: "https://thecowboys.one/",
+    enProduccion: "https://thecowboys.lol/",
   },
   /* Bitácora */
   {

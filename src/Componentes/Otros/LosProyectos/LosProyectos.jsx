@@ -176,7 +176,7 @@ const LosProyectos = () => {
           }
           enProduccion={
             <a
-              href="https://thecowboys.one/"
+              href="https://thecowboys.lol/"
               target="_blank"
               rel="noopener noreferrer"
             >
