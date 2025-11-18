@@ -11,6 +11,43 @@ const LosProyectos = () => {
       >
         <h2 className="tituloContacto">Proyectos</h2>
 
+        {/* Ta-Te-Ti */}
+        <Proyectos
+          src="\Imagenes\Ta-Te-Ti512x512.png"
+          alt="Imagen del proyecto de Ta-Te-Ti"
+          titulo="Ta-Te-Ti: Vs IA Invencible - APP"
+          descripcion="TaTeTi IA es una app móvil creada con Quasar, Vue.js y Capacitor. Incluye tres niveles de dificultad con lógica avanzada: desde movimientos aleatorios hasta un modo Difícil casi imbatible que analiza jugadas y bloqueos posibles. Incorpora sistema de puntuación, rachas animadas y una interfaz moderna optimizada para celular, mostrando un flujo de juego pulido y desafiante."
+          gitHub={
+            <a
+              href="https://github.com/JLeonN/TaTeTi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaGithub />
+              </i>
+            </a>
+          }
+          enProduccion={
+            <a
+              href="https://play.google.com/store/apps/details?id=com.leotateti.tateti"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <TbWorld />
+              </i>
+            </a>
+          }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/Vue.png",
+            "/Imagenes/IconosDeLenguajes/Quasar.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
+        />
+
         {/* Bitácora II */}
         <Proyectos
           src="/Imagenes/Bitácora-II.png"

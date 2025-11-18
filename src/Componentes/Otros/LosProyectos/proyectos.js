@@ -1,11 +1,20 @@
 const proyectos = [
-    /* Bitácora II */
+  /* Ta-Te-Ti */
+  {
+    titulo: "Ta-Te-Ti",
+    src: "/Imagenes/Ta-Te-Ti512x512.png",
+    tecnologias: ["Vue", "Quasar", "JavaScript", "CSS3", "HTML5"],
+    gitHub: "https://github.com/JLeonN/TaTeTi",
+    enProduccion:
+      "https://play.google.com/store/apps/details?id=com.leotateti.tateti",
+  },
+  /* Bitácora II */
   {
     titulo: "Bitácora II",
     src: "/Imagenes/Bitácora-II.png",
     tecnologias: ["Vue", "Quasar", "JavaScript", "CSS3", "HTML5"],
     gitHub: "https://github.com/JLeonN/Bit-cora-2-App-1",
-    enProduccion: "https://play.google.com/store/apps/details?id=bitacora.v2"
+    enProduccion: "https://play.google.com/store/apps/details?id=bitacora.v2",
   },
   /* Pokédex */
   {
