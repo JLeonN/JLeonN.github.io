@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaGooglePlay } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 
 function Proyectos({
@@ -9,11 +9,13 @@ function Proyectos({
   descripcion,
   gitHub,
   enProduccion,
+  produccionApp,
   tecnologias = [],
 }) {
   const [abierto, setAbierto] = useState(false);
   const enlaceGitHub = gitHub?.props?.href;
   const enlaceProduccion = enProduccion?.props?.href;
+  const enlaceApp = produccionApp?.props?.href;
 
   const manejarClick = () => {
     setAbierto(!abierto);
@@ -47,7 +49,7 @@ function Proyectos({
               />
             ))}
           </div>
-          <div className="botonesProyecto">
+          <div className={`botonesProyecto ${enlaceApp ? "tresBotones" : ""}`}>
             {enlaceGitHub && (
               <a href={enlaceGitHub} target="_blank" rel="noopener noreferrer">
                 <FaGithub /> Código
@@ -60,6 +62,11 @@ function Proyectos({
                 rel="noopener noreferrer"
               >
                 <TbWorld /> Producción
+              </a>
+            )}
+            {enlaceApp && (
+              <a href={enlaceApp} target="_blank" rel="noopener noreferrer">
+                <FaGooglePlay /> Producción APP
               </a>
             )}
           </div>

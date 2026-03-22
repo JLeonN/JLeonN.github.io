@@ -39,6 +39,17 @@ const LosProyectos = () => {
               </i>
             </a>
           }
+          produccionApp={
+            <a
+              href="https://play.google.com/store/apps/developer?id=Leo-Developer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaGithub />
+              </i>
+            </a>
+          }
           tecnologias={[
             "/Imagenes/IconosDeLenguajes/Vue.png",
             "/Imagenes/IconosDeLenguajes/Quasar.png",

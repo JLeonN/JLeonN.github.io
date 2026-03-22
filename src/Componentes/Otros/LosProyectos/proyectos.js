@@ -6,6 +6,8 @@ const proyectos = [
     tecnologias: ["Vue", "Quasar", "Capacitor", "JavaScript", "CSS3", "HTML5"],
     gitHub: "https://github.com/JLeonN/PrecioJusto",
     enProduccion: "https://jleonn.github.io/PrecioJusto/#/",
+    enProduccionApp:
+      "https://play.google.com/store/apps/developer?id=Leo-Developer",
   },
   /* Ta-Te-Ti */
   {

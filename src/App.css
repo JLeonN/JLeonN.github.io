@@ -652,6 +652,12 @@ body {
   gap: 2.5rem;
   justify-content: flex-start;
 }
+.botonesProyecto.tresBotones {
+  gap: 1.2rem;
+}
+.botonesProyecto.tresBotones a {
+  font-size: 0.9rem;
+}
 .botonesProyecto a {
   width: auto !important; /* 🔒 fuerza que el botón solo mida lo que ocupa su contenido */
   max-width: max-content; /* 🔒 asegura que no se estire */
