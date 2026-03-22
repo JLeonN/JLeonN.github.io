@@ -11,6 +11,43 @@ const LosProyectos = () => {
       >
         <h2 className="tituloContacto">Proyectos</h2>
 
+        {/* Precio Justo */}
+        <Proyectos
+          src="\Imagenes\PrecioJusto-icono.png"
+          alt="Imagen del proyecto de Precio Justo"
+          titulo="Precio Justo"
+          descripcion="Precio Justo es una aplicación móvil y web creada con Quasar y Vue.js para comparar precios en diferentes comercios. Permite escanear códigos de barras, gestionar listas de seguimiento y analizar ofertas para optimizar el ahorro. Su diseño moderno con Capacitor ofrece una experiencia de usuario ágil e intuitiva, facilitando el control de gastos en las compras diarias."
+          gitHub={
+            <a
+              href="https://github.com/JLeonN/PrecioJusto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaGithub />
+              </i>
+            </a>
+          }
+          enProduccion={
+            <a
+              href="https://jleonn.github.io/PrecioJusto/#/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <TbWorld />
+              </i>
+            </a>
+          }
+          tecnologias={[
+            "/Imagenes/IconosDeLenguajes/Vue.png",
+            "/Imagenes/IconosDeLenguajes/Quasar.png",
+            "/Imagenes/IconosDeLenguajes/JavaScript.png",
+            "/Imagenes/IconosDeLenguajes/CSS.png",
+            "/Imagenes/IconosDeLenguajes/HTML.png",
+          ]}
+        />
+
         {/* Ta-Te-Ti */}
         <Proyectos
           src="\Imagenes\Ta-Te-Ti512x512.png"

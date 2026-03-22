@@ -1,4 +1,12 @@
 const proyectos = [
+  /* Precio Justo */
+  {
+    titulo: "Precio Justo",
+    src: "/Imagenes/PrecioJusto-Icono.png",
+    tecnologias: ["Vue", "Quasar", "Capacitor", "JavaScript", "CSS3", "HTML5"],
+    gitHub: "https://github.com/JLeonN/PrecioJusto",
+    enProduccion: "https://jleonn.github.io/PrecioJusto/#/",
+  },
   /* Ta-Te-Ti */
   {
     titulo: "Ta-Te-Ti",
