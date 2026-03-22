@@ -13,7 +13,7 @@ const LosProyectos = () => {
 
         {/* Precio Justo */}
         <Proyectos
-          src="\Imagenes\PrecioJusto-icono.png"
+          src="/Imagenes/PrecioJusto-Icono.png"
           alt="Imagen del proyecto de Precio Justo"
           titulo="Precio Justo"
           descripcion="Precio Justo es una aplicación móvil y web creada con Quasar y Vue.js para comparar precios en diferentes comercios. Permite escanear códigos de barras, gestionar listas de seguimiento y analizar ofertas para optimizar el ahorro. Su diseño moderno con Capacitor ofrece una experiencia de usuario ágil e intuitiva, facilitando el control de gastos en las compras diarias."
@@ -61,7 +61,7 @@ const LosProyectos = () => {
 
         {/* Ta-Te-Ti */}
         <Proyectos
-          src="\Imagenes\Ta-Te-Ti512x512.png"
+          src="/Imagenes/Ta-Te-Ti512x512.png"
           alt="Imagen del proyecto de Ta-Te-Ti"
           titulo="Ta-Te-Ti: Vs IA Invencible - APP"
           descripcion="TaTeTi IA es una app móvil creada con Quasar, Vue.js y Capacitor. Incluye tres niveles de dificultad con lógica avanzada: desde movimientos aleatorios hasta un modo Difícil casi imbatible que analiza jugadas y bloqueos posibles. Incorpora sistema de puntuación, rachas animadas y una interfaz moderna optimizada para celular, mostrando un flujo de juego pulido y desafiante."
