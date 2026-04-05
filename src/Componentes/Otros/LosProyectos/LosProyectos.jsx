@@ -41,12 +41,12 @@ const LosProyectos = () => {
           }
           produccionApp={
             <a
-              href="https://play.google.com/store/apps/developer?id=Leo-Developer"
+              href="https://play.google.com/store/apps/details?id=com.preciojusto.app"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i>
-                <FaGithub />
+                <TbWorld />
               </i>
             </a>
           }

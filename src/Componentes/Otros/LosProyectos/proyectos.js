@@ -7,7 +7,7 @@ const proyectos = [
     gitHub: "https://github.com/JLeonN/PrecioJusto",
     enProduccion: "https://jleonn.github.io/PrecioJusto/#/",
     enProduccionApp:
-      "https://play.google.com/store/apps/developer?id=Leo-Developer",
+      "https://play.google.com/store/apps/details?id=com.preciojusto.app",
   },
   /* Ta-Te-Ti */
   {
