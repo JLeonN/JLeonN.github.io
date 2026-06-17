@@ -980,9 +980,13 @@ body {
   line-height: 1.65;
   margin-bottom: 12px;
 }
+.tarjeta-jorge-nunez strong {
+  color: #f3f7f0;
+  font-weight: 700;
+}
 .grilla-jorge-nunez {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 .lista-ideas-jorge-nunez {
@@ -995,6 +999,33 @@ body {
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.06);
   border-radius: 8px;
+}
+.casos-reales-jorge-nunez {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+.casos-reales-jorge-nunez article {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+}
+.casos-reales-jorge-nunez h3 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+}
+.casos-reales-jorge-nunez a {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--TextoLink);
+  font-size: 1rem;
+  text-decoration: none;
+}
+.casos-reales-jorge-nunez a:hover {
+  color: var(--Hover);
 }
 .certificados-jorge-nunez {
   display: flex;
@@ -1009,7 +1040,8 @@ body {
   .portada-jorge-nunez,
   .bloque-destacado-jorge-nunez,
   .grilla-jorge-nunez,
-  .lista-ideas-jorge-nunez {
+  .lista-ideas-jorge-nunez,
+  .casos-reales-jorge-nunez {
     grid-template-columns: 1fr;
   }
   .contenido-portada-jorge-nunez h1 {

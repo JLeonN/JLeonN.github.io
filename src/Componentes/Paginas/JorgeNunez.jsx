@@ -1,7 +1,9 @@
 import {
   FaExternalLinkAlt,
   FaFilePdf,
+  FaHandsHelping,
   FaLightbulb,
+  FaNewspaper,
   FaPrint,
   FaRobot,
   FaTools,
@@ -62,10 +64,12 @@ function JorgeNunez() {
           <FaRobot />
           <h2>IA aplicada al trabajo</h2>
           <p>
-            Mi objetivo es ayudar a que la inteligencia artificial se use mejor
-            dentro de la empresa: no solo como un chat para hacer preguntas, sino
-            como una herramienta para analizar información, crear asistentes,
-            documentar procesos y acompañar tareas repetitivas.
+            Mi objetivo es acompañar y potenciar el uso de inteligencia
+            artificial que ya existe dentro de la empresa: sumar criterio,
+            ordenar procesos y mostrar nuevas formas de aprovecharla para
+            analizar información, crear asistentes, documentar tareas y resolver
+            necesidades concretas. <strong>La IA puede convertirse en una
+            herramienta práctica para mejorar procesos reales.</strong>
           </p>
         </article>
         <article className="tarjeta-jorge-nunez">
@@ -74,7 +78,21 @@ function JorgeNunez() {
           <p>
             Me interesa enseñar a compañeros a usar IA con criterio: cómo pedir
             mejor, cómo revisar respuestas, cómo trabajar con agentes y cómo
-            transformar una consulta suelta en un proceso útil para el equipo.
+            transformar una consulta suelta en un proceso útil para el equipo.{" "}
+            <strong>Capacitar también es una forma de mejorar el trabajo de
+            todos.</strong>
+          </p>
+        </article>
+        <article className="tarjeta-jorge-nunez">
+          <FaHandsHelping />
+          <h2>Enfoque humano y responsable</h2>
+          <p>
+            Mi intención no es reemplazar personas ni quitar valor al trabajo de
+            nadie. Al contrario, creo que la inteligencia artificial puede ayudar
+            a que cada compañero trabaje con más herramientas, menos carga
+            repetitiva y más claridad para resolver problemas. La mejor
+            oportunidad está en <strong>combinar la experiencia del equipo con
+            nuevas herramientas.</strong>
           </p>
         </article>
         <article className="tarjeta-jorge-nunez">
@@ -83,9 +101,62 @@ function JorgeNunez() {
           <p>
             Actualmente estoy aprendiendo n8n porque lo veo como una herramienta
             muy potente para conectar servicios, reducir tareas manuales y crear
-            flujos que ahorren tiempo sin depender siempre de sistemas grandes.
+            flujos que ahorren tiempo sin depender siempre de sistemas grandes.{" "}
+            <strong>Automatizar bien permite ahorrar tiempo sin perder control
+            del proceso.</strong>
           </p>
         </article>
+      </section>
+      <section className="bloque-jorge-nunez">
+        <div className="encabezado-bloque-jorge-nunez">
+          <FaNewspaper />
+          <h2>Casos reales cercanos</h2>
+        </div>
+        <p>
+          La inteligencia artificial ya se está aplicando en empresas uruguayas
+          para mejorar atención, ventas, búsquedas, procesos internos y toma de
+          decisiones. Estos ejemplos no buscan copiar una solución exacta, sino
+          mostrar que la oportunidad es real y cercana.
+        </p>
+        <div className="casos-reales-jorge-nunez">
+          <article>
+            <h3>Comercio online y búsqueda de productos</h3>
+            <p>
+              El Observador informó que Farmacia San Roque ya usa en Uruguay un
+              buscador semántico con IA para entender mejor lo que busca el
+              cliente. En el mismo artículo se menciona un caso de Umbro/Time
+              Out donde la búsqueda con IA redujo búsquedas sin resultado y
+              vinculó una parte importante del ingreso de la tienda a la
+              personalización.
+            </p>
+            <a
+              href="https://www.elobservador.com.uy/asi-nueve-herramientas-ia-uruguayas-cambian-la-forma-que-compras-online-y-no-te-diste-cuenta-n6041032"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaExternalLinkAlt />
+              Fuente: El Observador
+            </a>
+          </article>
+          <article>
+            <h3>Atención, catálogo y agenda por chat</h3>
+            <p>
+              En otro relevamiento de El Observador sobre IA aplicada en
+              Uruguay, Roma AI presentó asistentes capaces de responder por
+              WhatsApp, consultar datos reales, agendar y hacer seguimiento. La
+              nota menciona como ejemplo una automotora conectada a una planilla
+              de stock para armar catálogo y coordinar visitas.
+            </p>
+            <a
+              href="https://www.elobservador.com.uy/ciencia-y-tecnologia/que-ia-ya-se-usa-uruguay-seis-casos-concretos-presentados-el-latu-n6035659"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaExternalLinkAlt />
+              Fuente: El Observador
+            </a>
+          </article>
+        </div>
       </section>
       <section className="bloque-destacado-jorge-nunez">
         <div>
