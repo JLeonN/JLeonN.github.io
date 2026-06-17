@@ -845,6 +845,49 @@ body {
   height: auto;
   font-size: 1.2rem;
 }
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Jorge Núñez */
+.paginaJorgeNunez {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  box-sizing: border-box;
+  color: var(--Texto);
+  background-color: var(--FondoBody);
+}
+.contenidoJorgeNunez {
+  max-width: 900px;
+  text-align: center;
+}
+.etiquetaJorgeNunez {
+  color: var(--TextoLink);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+.contenidoJorgeNunez h1 {
+  font-family: var(--tipografiaNombre);
+  color: var(--TituloH1);
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+.textoPrincipalJorgeNunez {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  max-width: 760px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .contenidoJorgeNunez h1 {
+    font-size: 3.5rem;
+  }
+  .textoPrincipalJorgeNunez {
+    font-size: 1.1rem;
+  }
+}
 
 /* RESPONSIVE - CONOCIMIENTOS Y TARJETA */
 @media (max-width: 600px) {
