@@ -847,45 +847,215 @@ body {
 }
 /* ------------------------------------------------------------------------------------------------------------ */
 /* Jorge Núñez */
-.paginaJorgeNunez {
+.pagina-jorge-nunez {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 32px;
+  padding: 40px 24px;
   box-sizing: border-box;
   color: var(--Texto);
-  background-color: var(--FondoBody);
+  background-color: #2f3437;
 }
-.contenidoJorgeNunez {
-  max-width: 900px;
-  text-align: center;
+.portada-jorge-nunez {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 28px;
+  align-items: center;
+  max-width: 1120px;
+  min-height: 88vh;
+  margin: 0 auto;
 }
-.etiquetaJorgeNunez {
+.contenido-portada-jorge-nunez {
+  max-width: 760px;
+}
+.etiqueta-jorge-nunez {
   color: var(--TextoLink);
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0;
   margin-bottom: 12px;
 }
-.contenidoJorgeNunez h1 {
+.contenido-portada-jorge-nunez h1 {
   font-family: var(--tipografiaNombre);
-  color: var(--TituloH1);
-  font-size: 6rem;
-  margin-bottom: 20px;
+  color: #f3f7f0;
+  font-size: 6.5rem;
+  line-height: 1;
+  margin-bottom: 22px;
 }
-.textoPrincipalJorgeNunez {
-  font-size: 1.5rem;
-  line-height: 1.5;
+.texto-principal-jorge-nunez {
+  font-size: 1.55rem;
+  line-height: 1.45;
   max-width: 760px;
-  margin: 0 auto;
+  margin-bottom: 26px;
 }
-@media (max-width: 768px) {
-  .contenidoJorgeNunez h1 {
-    font-size: 3.5rem;
+.acciones-jorge-nunez {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.acciones-jorge-nunez a,
+.acciones-jorge-nunez button,
+.certificados-jorge-nunez a {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: #1f1f1f;
+  color: var(--Texto);
+  font-family: var(--tipografiaGeneral);
+  font-size: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.acciones-jorge-nunez svg,
+.certificados-jorge-nunez svg {
+  width: 18px;
+  flex-shrink: 0;
+}
+.acciones-jorge-nunez a:hover,
+.acciones-jorge-nunez button:hover,
+.certificados-jorge-nunez a:hover {
+  color: var(--Hover);
+}
+.resumen-jorge-nunez {
+  display: grid;
+  gap: 12px;
+}
+.resumen-jorge-nunez span {
+  display: block;
+  padding: 16px;
+  border-left: 4px solid var(--TextoLink);
+  background-color: rgba(31, 31, 31, 0.72);
+  border-radius: 8px;
+  font-size: 1.05rem;
+}
+.bloque-jorge-nunez,
+.bloque-destacado-jorge-nunez,
+.grilla-jorge-nunez,
+.cierre-jorge-nunez {
+  max-width: 1120px;
+  margin: 0 auto 28px;
+}
+.bloque-jorge-nunez,
+.bloque-destacado-jorge-nunez,
+.tarjeta-jorge-nunez,
+.cierre-jorge-nunez {
+  padding: 28px;
+  box-sizing: border-box;
+  background-color: rgba(31, 31, 31, 0.68);
+  border-radius: 8px;
+}
+.bloque-destacado-jorge-nunez {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  border-left: 5px solid var(--TextoLink);
+}
+.encabezado-bloque-jorge-nunez {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.encabezado-bloque-jorge-nunez svg,
+.tarjeta-jorge-nunez svg {
+  width: 28px;
+  color: var(--TextoLink);
+}
+.bloque-jorge-nunez h2,
+.bloque-destacado-jorge-nunez h2,
+.tarjeta-jorge-nunez h2,
+.cierre-jorge-nunez h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.bloque-jorge-nunez p,
+.bloque-destacado-jorge-nunez p,
+.tarjeta-jorge-nunez p,
+.cierre-jorge-nunez p {
+  font-size: 1.12rem;
+  line-height: 1.65;
+  margin-bottom: 12px;
+}
+.grilla-jorge-nunez {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.lista-ideas-jorge-nunez {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.lista-ideas-jorge-nunez p {
+  margin: 0;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+}
+.certificados-jorge-nunez {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 18px;
+}
+.cierre-jorge-nunez {
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .portada-jorge-nunez,
+  .bloque-destacado-jorge-nunez,
+  .grilla-jorge-nunez,
+  .lista-ideas-jorge-nunez {
+    grid-template-columns: 1fr;
   }
-  .textoPrincipalJorgeNunez {
-    font-size: 1.1rem;
+  .contenido-portada-jorge-nunez h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .pagina-jorge-nunez {
+    padding: 24px 14px;
+  }
+  .contenido-portada-jorge-nunez h1 {
+    font-size: 3.2rem;
+  }
+  .texto-principal-jorge-nunez {
+    font-size: 1.18rem;
+  }
+  .bloque-jorge-nunez,
+  .bloque-destacado-jorge-nunez,
+  .tarjeta-jorge-nunez,
+  .cierre-jorge-nunez {
+    padding: 20px;
+  }
+}
+@media print {
+  .pagina-jorge-nunez {
+    padding: 0;
+    color: #111;
+    background-color: #fff;
+  }
+  .portada-jorge-nunez {
+    min-height: auto;
+  }
+  .acciones-jorge-nunez {
+    display: none;
+  }
+  .bloque-jorge-nunez,
+  .bloque-destacado-jorge-nunez,
+  .tarjeta-jorge-nunez,
+  .cierre-jorge-nunez,
+  .resumen-jorge-nunez span {
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  .contenido-portada-jorge-nunez h1 {
+    color: #111;
   }
 }
 
