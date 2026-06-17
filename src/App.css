@@ -472,6 +472,12 @@ body {
   margin-bottom: 2rem;
   color: var(--Texto);
 }
+.texto p {
+  margin: 0 0 1rem;
+}
+.texto p:last-child {
+  margin-bottom: 0;
+}
 /* Diseño responsive */
 @media (max-width: 768px) {
   .tituloContacto {

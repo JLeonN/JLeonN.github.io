@@ -8,11 +8,27 @@ function SobreMi() {
           <h2 id="sobreMi" className="tituloContacto tituloSobreMi">
             Sobre mi
           </h2>
-          <p className="texto">
-            Soy Leo, un apasionado de la tecnología que actualmente se está
-            formando en programación web, enfocándome en HTML, CSS, JavaScript y
-            React, con la meta de transicionar al desarrollo web. Estoy
-            emocionado por las nuevas oportunidades en el mundo tecnológico.
+          <div className="texto">
+            <p>
+            Soy Leo, un apasionado de la tecnología. Me formé en programación
+            web con HTML, CSS, JavaScript y React, y con el tiempo fui ampliando
+            mi camino hacia soluciones a medida para web, Android y Windows.
+            </p>
+            <p>
+            Actualmente estoy profundizando en Vue y Quasar, mis tecnologías
+            favoritas para crear aplicaciones prácticas, y también estoy
+            aprendiendo n8n para sumar automatizaciones útiles cuando un proceso
+            lo necesita.
+            </p>
+            <p>
+            Un ejemplo importante de ese camino es Bitácora II, una aplicación
+            móvil que nació de una necesidad real de trabajo. Al estar disponible
+            en el celular, se volvió mucho más útil para el día a día, fue
+            adoptada por compañeros y sigue mejorando con su feedback. Esa
+            experiencia me enseñó a escuchar, iterar y convertir ideas simples
+            en herramientas concretas.
+            </p>
+            <p>
             Además, soy un entusiasta del mundo de las bicicletas con amplia
             experiencia técnica. Trabajé más de 5 años en Motociclo, avanzando
             de armador a técnico y siendo el referente del área de servicio
@@ -33,7 +49,8 @@ function SobreMi() {
                 mi carpeta de Behance.
               </a>
             </span>
-          </p>
+            </p>
+          </div>
         </dir>
       </section>
     </>

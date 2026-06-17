@@ -17,9 +17,10 @@ function Comienzo() {
             <h1 className="titulo">Leonardo Núñez</h1>
             <p>
               Hola, gracias por visitar mi página web. Soy Leo, desarrollador
-              web con experiencia en Vue, Quasar, React, JavaScript, CSS y HTML. Estoy
-              interesado en formar parte de su equipo y aportar soluciones
-              creativas y eficientes.
+              de software. Me enfoco en crear soluciones a medida para web,
+              Android y Windows, sumar automatizaciones útiles cuando el
+              proyecto lo necesita y seguir creciendo con desafíos cada vez más
+              completos.
             </p>
             <div className="iconosSociales">
               <a href="mailto:jorgebike.75@gmail.com" title="Envíame un correo">
