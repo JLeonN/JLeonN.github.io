@@ -137,6 +137,15 @@ function JorgeNunez() {
               <FaExternalLinkAlt />
               Fuente: El Observador
             </a>
+            <div className="fuente-qr-jorge-nunez">
+              <img
+                src="/Imagenes/QrFuenteObservadorComercioIA.svg"
+                alt="QR de la fuente de El Observador sobre IA en comercio online"
+              />
+              <p>
+                https://www.elobservador.com.uy/asi-nueve-herramientas-ia-uruguayas-cambian-la-forma-que-compras-online-y-no-te-diste-cuenta-n6041032
+              </p>
+            </div>
           </article>
           <article>
             <h3>Atención, catálogo y agenda por chat</h3>
@@ -155,6 +164,15 @@ function JorgeNunez() {
               <FaExternalLinkAlt />
               Fuente: El Observador
             </a>
+            <div className="fuente-qr-jorge-nunez">
+              <img
+                src="/Imagenes/QrFuenteObservadorLatuIA.svg"
+                alt="QR de la fuente de El Observador sobre casos de IA en Uruguay"
+              />
+              <p>
+                https://www.elobservador.com.uy/ciencia-y-tecnologia/que-ia-ya-se-usa-uruguay-seis-casos-concretos-presentados-el-latu-n6035659
+              </p>
+            </div>
           </article>
         </div>
       </section>
@@ -174,7 +192,11 @@ function JorgeNunez() {
             sin esperar siempre por sistemas externos o procesos largos.
           </p>
         </div>
-        <div className="acciones-jorge-nunez">
+        <div className="acceso-bitacora-jorge-nunez">
+          <img
+            src="/Imagenes/QrBitacoraII.svg"
+            alt="QR para abrir Bitácora II en Google Play"
+          />
           <a
             href="https://play.google.com/store/apps/details?id=bitacora.v2"
             target="_blank"
@@ -183,6 +205,7 @@ function JorgeNunez() {
             <FaExternalLinkAlt />
             Ver Bitácora II
           </a>
+          <p>https://play.google.com/store/apps/details?id=bitacora.v2</p>
         </div>
       </section>
       <section className="bloque-jorge-nunez">
@@ -238,6 +261,26 @@ function JorgeNunez() {
             Desarrollo con IA
           </a>
         </div>
+        <div className="certificados-qr-jorge-nunez">
+          <article>
+            <img
+              src="/Imagenes/QrCertificadoCursoIA.svg"
+              alt="QR del certificado Curso de IA"
+            />
+            <p>Certificado Curso de IA</p>
+            <span>https://jleonn.github.io/Documentos/CertificadoCursoIA.pdf</span>
+          </article>
+          <article>
+            <img
+              src="/Imagenes/QrCertificadoDesarrolloIA.svg"
+              alt="QR del certificado Desarrollo con IA"
+            />
+            <p>Certificado Desarrollo con IA</p>
+            <span>
+              https://jleonn.github.io/Documentos/CertificadoDesarrolloIA.pdf
+            </span>
+          </article>
+        </div>
       </section>
       <section className="cierre-jorge-nunez">
         <h2>Próximos pasos</h2>
@@ -246,6 +289,12 @@ function JorgeNunez() {
           catálogo que podría mostrarse pronto. Esta propuesta busca abrir una
           conversación sobre cómo puedo aportar más valor desde la tecnología,
           la IA y el conocimiento real del trabajo diario.
+        </p>
+        <p>
+          Si esta línea de trabajo resulta interesante para la empresa, me
+          gustaría poder tener una reunión con gerencia para conversar la idea,
+          escuchar prioridades y evaluar juntos qué oportunidades podrían tener
+          más impacto.
         </p>
       </section>
     </main>
