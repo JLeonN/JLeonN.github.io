@@ -977,16 +977,18 @@ body {
   margin: 0;
 }
 .resumen-jorge-nunez {
-  display: grid;
-  gap: 12px;
-}
-.resumen-jorge-nunez span {
-  display: block;
-  padding: 16px;
+  padding: 22px;
   border-left: 4px solid var(--TextoLink);
   background-color: rgba(31, 31, 31, 0.72);
   border-radius: 8px;
-  font-size: 1.05rem;
+}
+.resumen-jorge-nunez p {
+  margin: 0 0 14px;
+  font-size: 1.08rem;
+  line-height: 1.58;
+}
+.resumen-jorge-nunez p:last-child {
+  margin-bottom: 0;
 }
 .bloque-jorge-nunez,
 .bloque-destacado-jorge-nunez,
@@ -1225,7 +1227,7 @@ body {
   .bloque-destacado-jorge-nunez,
   .tarjeta-jorge-nunez,
   .cierre-jorge-nunez,
-  .resumen-jorge-nunez span {
+  .resumen-jorge-nunez {
     color: #111;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -1242,7 +1244,7 @@ body {
   .resumen-jorge-nunez {
     margin-top: 8mm;
   }
-  .resumen-jorge-nunez span {
+  .resumen-jorge-nunez {
     margin-bottom: 4mm;
   }
   .contenido-portada-jorge-nunez h1 {

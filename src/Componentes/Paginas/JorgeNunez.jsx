@@ -34,10 +34,12 @@ function JorgeNunez() {
           </div>
         </div>
         <aside className="resumen-jorge-nunez">
-          <span>9 años en la empresa</span>
-          <span>IA desde 2023</span>
-          <span>Software interno</span>
-          <span>Automatizaciones</span>
+          <p>
+            Casi 9 años dentro de la empresa me dan contexto para detectar
+            necesidades reales y convertirlas en herramientas simples, útiles y
+            medibles, combinando conocimiento del trabajo diario con
+            inteligencia artificial, automatizaciones y software a medida.
+          </p>
         </aside>
       </section>
       <section className="bloque-jorge-nunez">
@@ -187,6 +189,17 @@ function JorgeNunez() {
             permitió mejorar tareas reales con feedback directo de compañeros.
           </p>
           <p>
+            Una de las mejoras más valoradas fue la generación rápida de
+            etiquetas: permite crear más de 100 etiquetas en poco tiempo,
+            evitando hacerlas una por una y reduciendo una tarea manual que antes
+            consumía mucho más trabajo.
+          </p>
+          <p>
+            Además, fue pensada para integrarse con lectores infrarrojos que la
+            empresa ya utiliza, conectándose por Bluetooth para acelerar el
+            escaneo sin depender de comprar herramientas nuevas.
+          </p>
+          <p>
             Este tipo de desarrollo muestra una oportunidad clara: crear
             soluciones internas pequeñas, específicas y ajustadas a cada área,
             sin esperar siempre por sistemas externos o procesos largos.
@@ -301,18 +314,12 @@ function JorgeNunez() {
         </div>
       </section>
       <section className="cierre-jorge-nunez">
-        <h2>Próximos pasos</h2>
+        <h2>Solicitud de conversación</h2>
         <p>
-          Estoy trabajando en nuevas ideas y prototipos, incluyendo un posible
-          catálogo que podría mostrarse pronto. Esta propuesta busca abrir una
-          conversación sobre cómo puedo aportar más valor desde la tecnología,
-          la IA y el conocimiento real del trabajo diario.
-        </p>
-        <p>
-          Si esta línea de trabajo resulta interesante para la empresa, me
-          gustaría poder tener una reunión con gerencia para conversar la idea,
-          escuchar prioridades y evaluar juntos qué oportunidades podrían tener
-          más impacto.
+          Si esta propuesta resulta interesante para la empresa, me gustaría
+          solicitar una reunión con gerencia para conversar la idea, escuchar
+          prioridades y evaluar juntos qué oportunidades podrían tener más
+          impacto.
         </p>
       </section>
     </main>
