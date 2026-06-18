@@ -41,6 +41,13 @@ function JorgeNunez() {
             inteligencia artificial, automatizaciones y software a medida.
           </p>
         </aside>
+        <div className="qr-portada-impresion-jorge-nunez">
+          <img
+            src="/Imagenes/QrPaginaJorgeNunez.svg"
+            alt="QR para abrir la propuesta web de Jorge Núñez"
+          />
+          <p>https://jleonn.github.io/JorgeNunez</p>
+        </div>
       </section>
       <section className="bloque-jorge-nunez">
         <div className="encabezado-bloque-jorge-nunez">

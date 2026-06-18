@@ -990,6 +990,9 @@ body {
 .resumen-jorge-nunez p:last-child {
   margin-bottom: 0;
 }
+.qr-portada-impresion-jorge-nunez {
+  display: none;
+}
 .bloque-jorge-nunez,
 .bloque-destacado-jorge-nunez,
 .grilla-jorge-nunez,
@@ -1022,7 +1025,8 @@ body {
 }
 .encabezado-bloque-jorge-nunez svg,
 .tarjeta-jorge-nunez svg {
-  width: 28px;
+  width: 30px;
+  height: 30px;
   color: var(--TextoLink);
 }
 .bloque-jorge-nunez h2,
@@ -1246,6 +1250,27 @@ body {
   }
   .resumen-jorge-nunez {
     margin-bottom: 4mm;
+  }
+  .qr-portada-impresion-jorge-nunez {
+    display: block;
+    margin-top: 10mm;
+    text-align: center;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .qr-portada-impresion-jorge-nunez img {
+    width: 58mm;
+    height: 58mm;
+    padding: 2mm;
+    border: 1px solid #ddd;
+  }
+  .qr-portada-impresion-jorge-nunez p {
+    margin: 3mm 0 0;
+    color: #111;
+    font-size: 10pt;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   .contenido-portada-jorge-nunez h1 {
     color: #111;
