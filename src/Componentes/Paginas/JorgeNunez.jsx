@@ -246,7 +246,7 @@ function JorgeNunez() {
           exista, pero que todavía no se esté aprovechando de forma clara.
         </p>
       </section>
-      <section className="bloque-jorge-nunez">
+      <section className="bloque-jorge-nunez ideas-impresion-jorge-nunez">
         <div className="encabezado-bloque-jorge-nunez">
           <FaLightbulb />
           <h2>Ideas para explorar</h2>
@@ -270,7 +270,10 @@ function JorgeNunez() {
           </p>
         </div>
       </section>
-      <section id="certificados" className="bloque-jorge-nunez">
+      <section
+        id="certificados"
+        className="bloque-jorge-nunez certificados-impresion-jorge-nunez"
+      >
         <div className="encabezado-bloque-jorge-nunez">
           <FaFilePdf />
           <h2>Certificados</h2>

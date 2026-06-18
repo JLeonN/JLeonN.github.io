@@ -1400,6 +1400,48 @@ body {
     overflow-wrap: anywhere;
     word-break: break-word;
   }
+  .ideas-impresion-jorge-nunez,
+  .certificados-impresion-jorge-nunez {
+    margin-bottom: 5mm;
+    padding: 5mm;
+  }
+  .ideas-impresion-jorge-nunez {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .ideas-impresion-jorge-nunez .encabezado-bloque-jorge-nunez,
+  .certificados-impresion-jorge-nunez .encabezado-bloque-jorge-nunez {
+    margin-bottom: 3mm;
+  }
+  .ideas-impresion-jorge-nunez h2,
+  .certificados-impresion-jorge-nunez h2 {
+    margin-bottom: 3mm;
+  }
+  .ideas-impresion-jorge-nunez p,
+  .certificados-impresion-jorge-nunez p {
+    font-size: 10pt;
+    line-height: 1.32;
+    margin-bottom: 3mm;
+  }
+  .ideas-impresion-jorge-nunez .lista-ideas-jorge-nunez p {
+    padding: 4mm;
+    margin-bottom: 3mm;
+  }
+  .certificados-impresion-jorge-nunez {
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+  .certificados-impresion-jorge-nunez .certificados-qr-jorge-nunez {
+    gap: 5mm;
+    margin-top: 5mm;
+  }
+  .certificados-impresion-jorge-nunez .certificados-qr-jorge-nunez article {
+    padding: 4mm;
+  }
+  .certificados-impresion-jorge-nunez .certificados-qr-jorge-nunez img {
+    width: 26mm;
+    height: 26mm;
+  }
 }
 
 /* RESPONSIVE - CONOCIMIENTOS Y TARJETA */
