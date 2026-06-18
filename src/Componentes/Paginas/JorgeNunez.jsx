@@ -211,6 +211,24 @@ function JorgeNunez() {
       <section className="bloque-jorge-nunez">
         <div className="encabezado-bloque-jorge-nunez">
           <FaLightbulb />
+          <h2>Pequeñas mejoras medibles</h2>
+        </div>
+        <p>
+          La idea no es empezar con grandes sistemas, sino con prototipos
+          pequeños, medibles y fáciles de corregir. A partir de una necesidad
+          concreta se puede probar una herramienta simple, usarla en un área
+          puntual, escuchar feedback y mejorarla por etapas.
+        </p>
+        <p>
+          Un camino posible sería crear paneles básicos para transformar datos
+          diarios en información útil para decidir: registros de tareas,
+          incidencias, movimientos, tiempos, pedidos o cualquier dato que hoy ya
+          exista, pero que todavía no se esté aprovechando de forma clara.
+        </p>
+      </section>
+      <section className="bloque-jorge-nunez">
+        <div className="encabezado-bloque-jorge-nunez">
+          <FaLightbulb />
           <h2>Ideas para explorar</h2>
         </div>
         <div className="lista-ideas-jorge-nunez">
