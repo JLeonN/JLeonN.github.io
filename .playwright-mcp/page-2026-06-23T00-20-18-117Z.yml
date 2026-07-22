@@ -1,0 +1,113 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - paragraph [ref=e7]: Propuesta de crecimiento
+      - heading "Jorge Núñez" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Una propuesta para aportar desde la inteligencia artificial, la capacitación interna, las automatizaciones y el desarrollo de software a medida.
+      - generic [ref=e10]:
+        - button "Imprimir propuesta" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+          - text: Imprimir propuesta
+        - link "Ver certificados" [ref=e14] [cursor=pointer]:
+          - /url: "#certificados"
+          - img [ref=e15]
+          - text: Ver certificados
+    - complementary [ref=e17]:
+      - paragraph [ref=e18]: Casi 9 años dentro de la empresa me dan contexto para detectar necesidades reales y convertirlas en herramientas simples, útiles y medibles, combinando conocimiento del trabajo diario con inteligencia artificial, automatizaciones y software a medida.
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - img [ref=e21]
+      - heading "Presentación personal" [level=2] [ref=e23]
+    - paragraph [ref=e24]: Trabajo en la empresa desde hace casi nueve años. En ese recorrido conocí de cerca tareas, procesos, necesidades reales y formas de trabajo que muchas veces pueden mejorarse con herramientas simples, bien pensadas y adaptadas al día a día.
+    - paragraph [ref=e25]: Desde 2023 empecé a estudiar y usar inteligencia artificial de manera constante. Lo que comenzó como curiosidad se transformó en una línea de aprendizaje diario, probando herramientas, agentes, flujos de trabajo y formas prácticas de resolver problemas con más velocidad y mejor criterio.
+  - generic [ref=e26]:
+    - article [ref=e27]:
+      - img [ref=e28]
+      - heading "IA aplicada al trabajo" [level=2] [ref=e30]
+      - paragraph [ref=e31]:
+        - text: "Mi objetivo es acompañar y potenciar el uso de inteligencia artificial que ya existe dentro de la empresa: sumar criterio, ordenar procesos y mostrar nuevas formas de aprovecharla para analizar información, crear asistentes, documentar tareas y resolver necesidades concretas."
+        - strong [ref=e32]: La IA puede convertirse en una herramienta práctica para mejorar procesos reales.
+    - article [ref=e33]:
+      - img [ref=e34]
+      - heading "Capacitación interna" [level=2] [ref=e36]
+      - paragraph [ref=e37]:
+        - text: "Me interesa enseñar a compañeros a usar IA con criterio: cómo pedir mejor, cómo revisar respuestas, cómo trabajar con agentes y cómo transformar una consulta suelta en un proceso útil para el equipo."
+        - strong [ref=e38]: Capacitar también es una forma de mejorar el trabajo de todos.
+    - article [ref=e39]:
+      - img [ref=e40]
+      - heading "Enfoque humano y responsable" [level=2] [ref=e42]
+      - paragraph [ref=e43]:
+        - text: Mi intención no es reemplazar personas ni quitar valor al trabajo de nadie. Al contrario, creo que la inteligencia artificial puede ayudar a que cada compañero trabaje con más herramientas, menos carga repetitiva y más claridad para resolver problemas. La mejor oportunidad está en
+        - strong [ref=e44]: combinar la experiencia del equipo con nuevas herramientas.
+    - article [ref=e45]:
+      - img [ref=e46]
+      - heading "Automatizaciones" [level=2] [ref=e48]
+      - paragraph [ref=e49]:
+        - text: Actualmente estoy aprendiendo n8n porque lo veo como una herramienta muy potente para conectar servicios, reducir tareas manuales y crear flujos que ahorren tiempo sin depender siempre de sistemas grandes.
+        - strong [ref=e50]: Automatizar bien permite ahorrar tiempo sin perder control del proceso.
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - img [ref=e53]
+      - heading "Casos reales cercanos" [level=2] [ref=e55]
+    - paragraph [ref=e56]: La inteligencia artificial ya se está aplicando en empresas uruguayas para mejorar atención, ventas, búsquedas, procesos internos y toma de decisiones. Estos ejemplos no buscan copiar una solución exacta, sino mostrar que la oportunidad es real y cercana.
+    - generic [ref=e57]:
+      - article [ref=e58]:
+        - heading "Comercio online y búsqueda de productos" [level=3] [ref=e59]
+        - paragraph [ref=e60]: El Observador informó que Farmacia San Roque ya usa en Uruguay un buscador semántico con IA para entender mejor lo que busca el cliente. En el mismo artículo se menciona un caso de Umbro/Time Out donde la búsqueda con IA redujo búsquedas sin resultado y vinculó una parte importante del ingreso de la tienda a la personalización.
+        - 'link "Fuente: El Observador" [ref=e61] [cursor=pointer]':
+          - /url: https://www.elobservador.com.uy/asi-nueve-herramientas-ia-uruguayas-cambian-la-forma-que-compras-online-y-no-te-diste-cuenta-n6041032
+          - img [ref=e62]
+          - text: "Fuente: El Observador"
+      - article [ref=e64]:
+        - heading "Atención, catálogo y agenda por chat" [level=3] [ref=e65]
+        - paragraph [ref=e66]: En otro relevamiento de El Observador sobre IA aplicada en Uruguay, Roma AI presentó asistentes capaces de responder por WhatsApp, consultar datos reales, agendar y hacer seguimiento. La nota menciona como ejemplo una automotora conectada a una planilla de stock para armar catálogo y coordinar visitas.
+        - 'link "Fuente: El Observador" [ref=e67] [cursor=pointer]':
+          - /url: https://www.elobservador.com.uy/ciencia-y-tecnologia/que-ia-ya-se-usa-uruguay-seis-casos-concretos-presentados-el-latu-n6035659
+          - img [ref=e68]
+          - text: "Fuente: El Observador"
+  - generic [ref=e70]:
+    - generic [ref=e71]:
+      - paragraph [ref=e72]: Software a medida
+      - heading "Bitácora II como ejemplo real" [level=2] [ref=e73]
+      - paragraph [ref=e74]: "Bitácora II nació de una necesidad concreta del trabajo: modernizar el registro de pedidos y ubicaciones desde el celular. Al estar disponible en Android, se volvió práctica para usar en movimiento y permitió mejorar tareas reales con feedback directo de compañeros."
+      - paragraph [ref=e75]: "Una de las mejoras más valoradas fue la generación rápida de etiquetas: permite crear más de 100 etiquetas en poco tiempo, evitando hacerlas una por una y reduciendo una tarea manual que antes consumía mucho más trabajo."
+      - paragraph [ref=e76]: Además, fue pensada para integrarse con lectores infrarrojos que la empresa ya utiliza, conectándose por Bluetooth para acelerar el escaneo sin depender de comprar herramientas nuevas.
+      - paragraph [ref=e77]: "Este tipo de desarrollo muestra una oportunidad clara: crear soluciones internas pequeñas, específicas y ajustadas a cada área, sin esperar siempre por sistemas externos o procesos largos."
+    - generic [ref=e78]:
+      - img "QR para abrir Bitácora II en Google Play" [ref=e79]
+      - link "Ver Bitácora II" [ref=e80] [cursor=pointer]:
+        - /url: https://play.google.com/store/apps/details?id=bitacora.v2
+        - img [ref=e81]
+        - text: Ver Bitácora II
+  - generic [ref=e83]:
+    - generic [ref=e84]:
+      - img [ref=e85]
+      - heading "Pequeñas mejoras medibles" [level=2] [ref=e87]
+    - paragraph [ref=e88]: La idea no es empezar con grandes sistemas, sino con prototipos pequeños, medibles y fáciles de corregir. A partir de una necesidad concreta se puede probar una herramienta simple, usarla en un área puntual, escuchar feedback y mejorarla por etapas.
+    - paragraph [ref=e89]: "Un camino posible sería crear paneles básicos para transformar datos diarios en información útil para decidir: registros de tareas, incidencias, movimientos, tiempos, pedidos o cualquier dato que hoy ya exista, pero que todavía no se esté aprovechando de forma clara."
+  - generic [ref=e90]:
+    - generic [ref=e91]:
+      - img [ref=e92]
+      - heading "Ideas para explorar" [level=2] [ref=e94]
+    - generic [ref=e95]:
+      - paragraph [ref=e96]: Crear asistentes internos para consultar procedimientos, criterios de trabajo o información frecuente.
+      - paragraph [ref=e97]: Automatizar reportes, avisos, registros o tareas administrativas que hoy consumen tiempo operativo.
+      - paragraph [ref=e98]: Desarrollar prototipos rápidos para probar mejoras antes de invertir en una solución más grande.
+      - paragraph [ref=e99]: Capacitar a equipos en el uso responsable y práctico de inteligencia artificial.
+  - generic [ref=e100]:
+    - generic [ref=e101]:
+      - img [ref=e102]
+      - heading "Certificados" [level=2] [ref=e104]
+    - paragraph [ref=e105]: Estos certificados acompañan un proceso de aprendizaje que sigue en movimiento. La inteligencia artificial cambia muy rápido, por eso mi foco es mantenerme actualizado y llevar ese conocimiento a casos prácticos.
+    - generic [ref=e106]:
+      - link "Curso de IA" [ref=e107] [cursor=pointer]:
+        - /url: /Documentos/CertificadoCursoIA.pdf
+        - img [ref=e108]
+        - text: Curso de IA
+      - link "Desarrollo con IA" [ref=e110] [cursor=pointer]:
+        - /url: /Documentos/CertificadoDesarrolloIA.pdf
+        - img [ref=e111]
+        - text: Desarrollo con IA
+  - generic [ref=e113]:
+    - heading "Solicitud de conversación" [level=2] [ref=e114]
+    - paragraph [ref=e115]: Si esta propuesta resulta interesante para la empresa, me gustaría solicitar una reunión con gerencia para conversar la idea, escuchar prioridades y evaluar juntos qué oportunidades podrían tener más impacto.
