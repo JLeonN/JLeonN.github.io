@@ -1281,6 +1281,7 @@ body {
 }
 :where(.App:has(.navegacionPrincipal) *) {
   width: auto;
+  box-sizing: border-box;
 }
 .App:has(.navegacionPrincipal) main {
   overflow: hidden;
@@ -1445,6 +1446,8 @@ body {
   text-decoration: none;
   transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
   width: fit-content;
+  max-width: 100%;
+  white-space: nowrap;
 }
 .botonPrincipal {
   color: #05231e;
@@ -1812,7 +1815,7 @@ body {
   .accionesContacto { grid-template-columns: repeat(3, 1fr); }
   .accionesContacto a { min-width: 0; }
 }
-@media (max-width: 620px) {
+@media (max-width: 700px) {
   .contenedorPrincipal,
   .contenedorNavegacion { width: min(100% - 28px, 1120px); }
   .contenedorNavegacion { min-height: 62px; }
@@ -1823,9 +1826,9 @@ body {
   .enlacesNavegacion a { padding: 12px 4px; }
   .enlacesNavegacion a::after { display: none; }
   .seccionPortada { min-height: auto; padding: 118px 0 72px; }
-  .accionesPortada { align-items: stretch; flex-direction: column; }
+  .accionesPortada { align-items: stretch; flex-direction: column; width: 100%; }
   .botonPrincipal,
-  .botonSecundario { width: 100%; }
+  .botonSecundario { width: 100%; max-width: 100%; }
   .presentacionPortada h1 { font-size: clamp(2.9rem, 16vw, 4.3rem); }
   .marcoFotoPerfil { width: min(265px, 74vw); }
   .marcoFotoPerfil p { right: -14px; bottom: 8px; }
