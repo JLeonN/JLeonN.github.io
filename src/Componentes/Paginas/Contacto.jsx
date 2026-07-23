@@ -1,54 +1,24 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
-  FaFileDownload,
-} from "react-icons/fa";
+import { FaEnvelope, FaFileDownload, FaLinkedin } from "react-icons/fa";
 
 function Contacto() {
   return (
-    <>
-      <div className="dimensiones">
-        <section id="contacto" className="contenedor tamaño">
-          <div className="contacto">
-            <h2 className="tituloContacto">CONTACTO</h2>
-            <p className="texto">
-              Podés contactarme a través de LinkedIn, enviarme un email o
-              explorar mis proyectos en GitHub. Estoy disponible para charlar
-              sobre nuevas oportunidades.
-            </p>
-            <div className="iconosSociales">
-              <a href="mailto:jorgebike.75@gmail.com" title="Envíame un correo">
-                <FaEnvelope />
-              </a>
-              <a
-                href="https://github.com/JLeonN"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Visita mi GitHub"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/j-l-n-técnico/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Visita mi perfil en LinkedIn"
-              >
-                <FaLinkedin />
-              </a>
-              <a
-                href="C.V/C.V.Programación.pdf"
-                download="C.V - Leonardo Núñez.pdf"
-                title="Descarga mi C.V."
-              >
-                <FaFileDownload />
-              </a>
-            </div>
-          </div>
-        </section>
+    <section id="contacto" className="seccionContacto">
+      <div className="contenedorPrincipal contenidoContacto">
+        <div>
+          <p className="etiquetaSeccion">¿Tenés una idea o una necesidad?</p>
+          <h2>Conversemos sobre tu próxima aplicación</h2>
+          <p>
+            Estoy disponible para conocer tu proyecto y pensar una solución web,
+            móvil, de escritorio o de automatización que realmente te sirva.
+          </p>
+        </div>
+        <div className="accionesContacto">
+          <a href="mailto:jorgebike.75@gmail.com"><FaEnvelope /> Enviar correo</a>
+          <a href="https://www.linkedin.com/in/j-l-n-técnico/" target="_blank" rel="noopener noreferrer"><FaLinkedin /> LinkedIn</a>
+          <a href="/C.V/C.V.Programación.pdf" download="CV - Jorge Leonardo Núñez.pdf"><FaFileDownload /> Descargar CV</a>
+        </div>
       </div>
-    </>
+    </section>
   );
 }
 

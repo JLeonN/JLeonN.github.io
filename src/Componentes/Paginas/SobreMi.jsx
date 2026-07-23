@@ -1,59 +1,57 @@
-import React from "react";
+import { FaBrain, FaGraduationCap, FaWrench } from "react-icons/fa";
 
 function SobreMi() {
   return (
-    <>
-      <section className="dimensiones">
-        <dir className="contacto">
-          <h2 id="sobreMi" className="tituloContacto tituloSobreMi">
-            Sobre mi
-          </h2>
-          <div className="texto">
-            <p>
-            Soy Leo, un apasionado de la tecnología. Me formé en programación
-            web con HTML, CSS, JavaScript y React, y con el tiempo fui ampliando
-            mi camino hacia soluciones a medida para web, Android y Windows.
-            </p>
-            <p>
-            Actualmente estoy profundizando en Vue y Quasar, mis tecnologías
-            favoritas para crear aplicaciones prácticas, y también estoy
-            aprendiendo n8n para sumar automatizaciones útiles cuando un proceso
-            lo necesita.
-            </p>
-            <p>
-            Un ejemplo importante de ese camino es Bitácora II, una aplicación
-            móvil que nació de una necesidad real de trabajo. Al estar disponible
-            en el celular, se volvió mucho más útil para el día a día, fue
-            adoptada por compañeros y sigue mejorando con su feedback. Esa
-            experiencia me enseñó a escuchar, iterar y convertir ideas simples
-            en herramientas concretas.
-            </p>
-            <p>
-            Además, soy un entusiasta del mundo de las bicicletas con amplia
-            experiencia técnica. Trabajé más de 5 años en Motociclo, avanzando
-            de armador a técnico y siendo el referente del área de servicio
-            técnico de bicicletas. Tras el cierre de la empresa, me uní a
-            Desceleste, donde trabajé principalmente como armador antes de
-            encontrar mi lugar en el área de repuestos de motos. Buscando
-            siempre crecer, estudié electrónica básica para especializarme en
-            bicicletas eléctricas y cursé publicidad y marketing en Brother
-            Montevideo, logrando reconocimientos en eventos de la industria.
-            Puedes ver algunos de mis trabajos en{" "}
-            <span>
-              <a
-                className="behance"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.behance.net/JLeoNP"
-              >
-                mi carpeta de Behance.
-              </a>
-            </span>
-            </p>
-          </div>
-        </dir>
-      </section>
-    </>
+    <section id="sobreMi" className="seccionPrincipal seccionSobreMi">
+      <div className="contenedorPrincipal cuadriculaSobreMi">
+        <div>
+          <p className="etiquetaSeccion">Mi recorrido</p>
+          <h2>Experiencia real para crear soluciones útiles</h2>
+          <p className="introduccionSeccion">
+            Antes de desarrollar software, aprendí a resolver problemas desde
+            el trabajo técnico, la atención a las personas y la mejora diaria.
+          </p>
+        </div>
+        <div className="historiaProfesional">
+          <article>
+            <FaWrench aria-hidden="true" />
+            <div>
+              <h3>Trabajo técnico y experiencia práctica</h3>
+              <p>
+                Trabajé más de cinco años en Motociclo, creciendo de armador a
+                técnico y referente de servicio de bicicletas. Luego continué
+                en Desceleste, en armado y repuestos de motos.
+              </p>
+            </div>
+          </article>
+          <article>
+            <FaGraduationCap aria-hidden="true" />
+            <div>
+              <h3>Aprendizaje que suma perspectiva</h3>
+              <p>
+                Me formé en electrónica básica para bicicletas eléctricas y en
+                publicidad y marketing en Brother Montevideo. Esa combinación
+                me ayuda a pensar tanto en la solución como en quien la usa.
+              </p>
+              <a href="https://www.behance.net/JLeoNP" target="_blank" rel="noopener noreferrer">Ver trabajos en Behance</a>
+            </div>
+          </article>
+          <article>
+            <FaBrain aria-hidden="true" />
+            <div>
+              <h3>IA con criterio humano</h3>
+              <p>
+                La inteligencia artificial no reemplaza a las personas: potencia
+                su experiencia, reduce tareas repetitivas y permite resolver
+                mejor los problemas. La uso profesionalmente para analizar,
+                crear, probar y mejorar soluciones.
+              </p>
+              <p className="textoAprendizaje">Sigo profundizando en Vue, Quasar y n8n para crear aplicaciones y automatizaciones más conectadas y útiles.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
   );
 }
 

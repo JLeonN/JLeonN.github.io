@@ -1,30 +1,32 @@
 import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Nav() {
   const [menuAbierto, setMenuAbierto] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuAbierto(!menuAbierto);
-  };
+  const cerrarMenu = () => setMenuAbierto(false);
 
   return (
-    <nav className="navbar">
-      <div className="tamaño">
-        <div className="navbarLogo">
-          <div class="linea"></div>
-        </div>
-        <div className={`navbarLinks ${menuAbierto ? "activo" : ""}`}>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#conocimientos">Conocimientos</a>
-          <a href="#sobreMi">Sobre mi</a>
-          <a href="#contacto">Contacto</a>
-        </div>
-        <div className="contenedorHamburguesa">
-          <div className="navbarBoton" onClick={toggleMenu}>
-            <span className="barra"></span>
-            <span className="barra"></span>
-            <span className="barra"></span>
-          </div>
+    <nav className="navegacionPrincipal" aria-label="Navegación principal">
+      <div className="contenedorNavegacion">
+        <a className="marcaNavegacion" href="#inicio" onClick={cerrarMenu}>
+          <span>JL</span>
+          <span className="marcaNavegacionTexto">Jorge Leonardo Núñez</span>
+        </a>
+        <button
+          className="botonMenu"
+          type="button"
+          aria-label={menuAbierto ? "Cerrar menú" : "Abrir menú"}
+          aria-expanded={menuAbierto}
+          onClick={() => setMenuAbierto(!menuAbierto)}
+        >
+          {menuAbierto ? <FaTimes /> : <FaBars />}
+        </button>
+        <div className={`enlacesNavegacion ${menuAbierto ? "abierto" : ""}`}>
+          <a href="#servicios" onClick={cerrarMenu}>Servicios</a>
+          <a href="#proyectos" onClick={cerrarMenu}>Proyectos</a>
+          <a href="#sobreMi" onClick={cerrarMenu}>Sobre mí</a>
+          <a href="#contacto" onClick={cerrarMenu}>Contacto</a>
         </div>
       </div>
     </nav>

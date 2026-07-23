@@ -1,347 +1,107 @@
-import { FaGithub } from "react-icons/fa";
-import { TbWorld } from "react-icons/tb";
 import Proyectos from "../../Paginas/Proyectos";
 
-const LosProyectos = () => {
+const proyectos = [
+  {
+    titulo: "Precio Justo",
+    imagen: "/Imagenes/PrecioJusto-Icono.png",
+    descripcion: "Aplicación web y móvil para comparar precios, escanear códigos de barras, gestionar listas de seguimiento y encontrar mejores ofertas.",
+    tecnologias: ["Vue", "Quasar", "Capacitor"],
+    destacado: true,
+    enlaces: [
+      { tipo: "web", etiqueta: "Ver web", url: "https://jleonn.github.io/PrecioJusto/#/" },
+      { tipo: "googlePlay", etiqueta: "Google Play", url: "https://play.google.com/store/apps/details?id=com.preciojusto.app" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/PrecioJusto" },
+    ],
+  },
+  {
+    titulo: "Bitácora II",
+    imagen: "/Imagenes/Bitácora-II.png",
+    descripcion: "App móvil para modernizar el registro de pedidos y ubicaciones, con escaneo, generación de Excel y mejoras guiadas por feedback real.",
+    tecnologias: ["Vue", "Quasar", "Capacitor"],
+    destacado: true,
+    enlaces: [
+      { tipo: "web", etiqueta: "Ver proyecto", url: "https://jleonn.github.io/Bit-cora-2-App-1/#/" },
+      { tipo: "googlePlay", etiqueta: "Google Play", url: "https://play.google.com/store/apps/details?id=bitacora.v2" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/Bit-cora-2-App-1" },
+    ],
+  },
+  {
+    titulo: "Ta-Te-Ti IA",
+    imagen: "/Imagenes/Ta-Te-Ti512x512.png",
+    descripcion: "Juego móvil con tres niveles de dificultad, lógica de juego avanzada, puntuación, rachas animadas y una interfaz optimizada para celular.",
+    tecnologias: ["Vue", "Quasar", "Capacitor"],
+    enlaces: [
+      { tipo: "googlePlay", etiqueta: "Google Play", url: "https://play.google.com/store/apps/details?id=com.leotateti.tateti" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/TaTeTi" },
+    ],
+  },
+  {
+    titulo: "Pokédex",
+    imagen: "/Imagenes/Pokeball.png",
+    descripcion: "Aplicación web que consulta PokéAPI para buscar Pokémon y mostrar tipos, estadísticas y evoluciones de forma clara.",
+    tecnologias: ["Vue", "JavaScript", "API"],
+    enlaces: [
+      { tipo: "web", etiqueta: "Ver web", url: "https://jleonn.github.io/Pokedex/" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/Pokedex" },
+    ],
+  },
+  {
+    titulo: "Cronómetro Web",
+    imagen: "/Imagenes/CronómetroWeb.jpg",
+    descripcion: "Herramienta web simple y accesible para medir tiempos con inicio, pausa y detención.",
+    tecnologias: ["React", "JavaScript", "CSS"],
+    enlaces: [
+      { tipo: "web", etiqueta: "Ver web", url: "https://jleonn.github.io/Cronometro/" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/Cronometro" },
+    ],
+  },
+  {
+    titulo: "The Cowboys",
+    imagen: "/Imagenes/Cowboys - 4.png",
+    descripcion: "Proyecto colaborativo donde participé en el desarrollo del front-end de una web diaria y compartible para amigos.",
+    tecnologias: ["React", "Bootstrap", "JavaScript"],
+    enlaces: [
+      { tipo: "web", etiqueta: "Ver web", url: "https://thecowboys.lol/" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/the-cowboy-day" },
+    ],
+  },
+  {
+    titulo: "Bitácora",
+    imagen: "/Imagenes/Bitácora.jpg",
+    descripcion: "Programa de escritorio para registrar tareas, pedidos, incidencias y perfiles de compañeros en una computadora compartida.",
+    tecnologias: ["React", "Electron", "JavaScript"],
+    enlaces: [
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/Bit-cora" },
+    ],
+  },
+  {
+    titulo: "Subscriptions Tracker",
+    imagen: "/Imagenes/SubscriptionsTracker.jpg",
+    descripcion: "Aplicación web para controlar suscripciones mensuales y conocer el presupuesto disponible con mayor claridad.",
+    tecnologias: ["React", "JavaScript", "CSS"],
+    enlaces: [
+      { tipo: "web", etiqueta: "Ver web", url: "https://jleonn.github.io/Subscriptions-Tracker/" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/Subscriptions-Tracker" },
+    ],
+  },
+];
+
+function LosProyectos() {
   return (
-    <>
-      <section
-        id="proyectos"
-        className="dimensiones dimensionesTarjeta contacto"
-      >
-        <h2 className="tituloContacto">Proyectos</h2>
-
-        {/* Precio Justo */}
-        <Proyectos
-          src="/Imagenes/PrecioJusto-Icono.png"
-          alt="Imagen del proyecto de Precio Justo"
-          titulo="Precio Justo"
-          descripcion="Precio Justo es una aplicación móvil y web creada con Quasar y Vue.js para comparar precios en diferentes comercios. Permite escanear códigos de barras, gestionar listas de seguimiento y analizar ofertas para optimizar el ahorro. Su diseño moderno con Capacitor ofrece una experiencia de usuario ágil e intuitiva, facilitando el control de gastos en las compras diarias."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/PrecioJusto"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://jleonn.github.io/PrecioJusto/#/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          produccionApp={
-            <a
-              href="https://play.google.com/store/apps/details?id=com.preciojusto.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/Vue.png",
-            "/Imagenes/IconosDeLenguajes/Quasar.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* Ta-Te-Ti */}
-        <Proyectos
-          src="/Imagenes/Ta-Te-Ti512x512.png"
-          alt="Imagen del proyecto de Ta-Te-Ti"
-          titulo="Ta-Te-Ti: Vs IA Invencible - APP"
-          descripcion="TaTeTi IA es una app móvil creada con Quasar, Vue.js y Capacitor. Incluye tres niveles de dificultad con lógica avanzada: desde movimientos aleatorios hasta un modo Difícil casi imbatible que analiza jugadas y bloqueos posibles. Incorpora sistema de puntuación, rachas animadas y una interfaz moderna optimizada para celular, mostrando un flujo de juego pulido y desafiante."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/TaTeTi"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://play.google.com/store/apps/details?id=com.leotateti.tateti"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/Vue.png",
-            "/Imagenes/IconosDeLenguajes/Quasar.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* Bitácora II */}
-        <Proyectos
-          src="/Imagenes/Bitácora-II.png"
-          alt="Imagen del proyecto de la Bitácora II"
-          titulo="Bitácora II - APP"
-          descripcion="Bitácora II es una app móvil creada para modernizar el registro de pedidos y ubicaciones en el depósito. Permite escanear códigos, generar Excel automáticamente y agilizar tareas, eliminando el doble trabajo y aprovechando la tecnología disponible. Compatible con el sistema actual y pensada para facilitar el día a día."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/Bit-cora-2-App-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://play.google.com/store/apps/details?id=bitacora.v2"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/Vue.png",
-            "/Imagenes/IconosDeLenguajes/Quasar.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* Pokédex */}
-        <Proyectos
-          src="/Imagenes/Pokeball.png"
-          alt="Imagen del proyecto de la Pokédex"
-          titulo="Pokédex"
-          descripcion="La Pokédex es una aplicación web desarrollada con Vue.js que permite buscar Pokémon por nombre o ID. Muestra información detallada como tipos, estadísticas y evolución. Cuenta con una interfaz visual clara y organizada, y consume datos directamente desde la API oficial de PokéAPI."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/Pokedex"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://jleonn.github.io/Pokedex/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/Vue.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* Cronómetro App */}
-        <Proyectos
-          src="/Imagenes/CronómetroApp.png"
-          alt="Imagen del proyecto Cronómetro App"
-          titulo="Cronómetro App"
-          descripcion="El Cronómetro App es una aplicación móvil desarrollada en React Native que permite medir tiempos con precisión y eficiencia. Ofrece funciones como inicio, pausa y detención, lo que facilita el control del cronómetro. Su interfaz es limpia y amigable, asegurando una experiencia de usuario sencilla y accesible para cualquier persona."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/Cronometro-APP"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://play.google.com/store/apps/details?id=com.yojorge.Nombredemiproyecto"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/React-Native.png",
-            "/Imagenes/IconosDeLenguajes/Expo.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* Cronómetro Web */}
-        <Proyectos
-          src="/Imagenes/CronómetroWeb.jpg"
-          alt="Imagen del proyecto Cronómetro Web"
-          titulo="Cronómetro Web"
-          descripcion="Este Cronómetro Web es una aplicación web desarrollada en React que permite medir tiempos con precisión y eficiencia. Con funcionalidades como inicio, pausa y detención, es fácil controlar el cronómetro. Su diseño es limpio y accesible, lo que garantiza que cualquier usuario pueda utilizarla sin dificultades."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/Cronometro"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://jleonn.github.io/Cronometro/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/React.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* The Cowboys */}
-        <Proyectos
-          src="/Imagenes/Cowboys - 4.png"
-          alt="Imagen del proyecto The Cowboys"
-          titulo="The Cowboys"
-          descripcion="The Cowboys es una página web creada en colaboración con amigos, donde participé en el desarrollo del front-end. La web asigna diariamente a un 'tonto del día' y un 'cowboys del día', permitiendo compartir los resultados por WhatsApp. Es un proyecto orientado a la diversión y el registro de estos roles dentro de nuestro grupo."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/the-cowboy-day"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://thecowboys.lol/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/React.png",
-            "/Imagenes/IconosDeLenguajes/Bootstrap.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* Bitácora */}
-        <Proyectos
-          src="/Imagenes/Bitácora.jpg"
-          alt="Imagen del proyecto Bitácora"
-          titulo="Bitácora"
-          descripcion="Bitácora es un programa de escritorio diseñado para registrar mis tareas diarias en el trabajo. Permite llevar un control de la cantidad de pedidos realizados, ítems rechazados, y facilita el uso de perfiles para compañeros que comparten la misma computadora. También incluye la opción de agregar notas sobre incidencias en los pedidos."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/Bit-cora"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/React-Electron.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-
-        {/* Subscriptions Tracker */}
-        <Proyectos
-          src="/Imagenes/SubscriptionsTracker.jpg"
-          alt="Imagen del proyecto Subscriptions Tracker"
-          titulo="Subscriptions Tracker"
-          descripcion="Este proyecto se centra en gestionar suscripciones mensuales como Netflix, Disney y HBO. El usuario ingresa el dinero disponible y el costo de sus suscripciones, y la aplicación calcula cuánto resta del presupuesto inicial, ayudando a tener un control claro de los gastos."
-          gitHub={
-            <a
-              href="https://github.com/JLeonN/Subscriptions-Tracker"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <FaGithub />
-              </i>
-            </a>
-          }
-          enProduccion={
-            <a
-              href="https://jleonn.github.io/Subscriptions-Tracker/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i>
-                <TbWorld />
-              </i>
-            </a>
-          }
-          tecnologias={[
-            "/Imagenes/IconosDeLenguajes/React.png",
-            "/Imagenes/IconosDeLenguajes/JavaScript.png",
-            "/Imagenes/IconosDeLenguajes/CSS.png",
-            "/Imagenes/IconosDeLenguajes/HTML.png",
-          ]}
-        />
-      </section>
-    </>
+    <section id="proyectos" className="seccionPrincipal seccionProyectos">
+      <div className="contenedorPrincipal">
+        <p className="etiquetaSeccion">Trabajo aplicado</p>
+        <h2>Proyectos que resuelven problemas</h2>
+        <p className="introduccionSeccion">
+          Cada proyecto representa una necesidad, una idea o un aprendizaje
+          llevado a una experiencia real y funcional.
+        </p>
+        <div className="grillaProyectos">
+          {proyectos.map((proyecto) => <Proyectos key={proyecto.titulo} proyecto={proyecto} />)}
+        </div>
+      </div>
+    </section>
   );
-};
+}
 
 export default LosProyectos;

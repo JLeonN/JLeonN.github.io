@@ -1,78 +1,41 @@
-import { useState } from "react";
 import { FaGithub, FaGooglePlay } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 
-function Proyectos({
-  src,
-  alt,
-  titulo,
-  descripcion,
-  gitHub,
-  enProduccion,
-  produccionApp,
-  tecnologias = [],
-}) {
-  const [abierto, setAbierto] = useState(false);
-  const enlaceGitHub = gitHub?.props?.href;
-  const enlaceProduccion = enProduccion?.props?.href;
-  const enlaceApp = produccionApp?.props?.href;
+const iconosAccion = {
+  github: FaGithub,
+  web: TbWorld,
+  googlePlay: FaGooglePlay,
+};
 
-  const manejarClick = () => {
-    setAbierto(!abierto);
-  };
+function Proyectos({ proyecto }) {
+  const { titulo, descripcion, imagen, tecnologias, enlaces, destacado } = proyecto;
 
   return (
-    <div
-      className={`tarjetaProyecto ${abierto ? "abierta" : ""}`}
-      onClick={manejarClick}
-    >
-      <div className="contenedorLogo">
-        <img src={src} alt={alt} className="logoProyecto" />
-        {!abierto && <h3 className="tituloProyecto">{titulo}</h3>}
-      </div>
-
-      {abierto && (
-        <div className="contenidoProyecto">
-          <h3 className="tituloExpandido">{titulo}</h3>
-          <div className="liniaPro"></div>
-          <div className="descripcionExpandida">
-            <p>{descripcion}</p>
-          </div>
-          <div className="liniaPro"></div>
-          <div className="tecnologiasUsadas">
-            {tecnologias.map((tec, idx) => (
-              <img
-                key={idx}
-                src={tec}
-                alt="Tecnología usada"
-                className="iconoTecnologia"
-              />
-            ))}
-          </div>
-          <div className={`botonesProyecto ${enlaceApp ? "tresBotones" : ""}`}>
-            {enlaceGitHub && (
-              <a href={enlaceGitHub} target="_blank" rel="noopener noreferrer">
-                <FaGithub /> Código
-              </a>
-            )}
-            {enlaceProduccion && (
-              <a
-                href={enlaceProduccion}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <TbWorld /> Producción
-              </a>
-            )}
-            {enlaceApp && (
-              <a href={enlaceApp} target="_blank" rel="noopener noreferrer">
-                <FaGooglePlay /> Producción APP
-              </a>
-            )}
-          </div>
+    <article className={`tarjetaProyectoNueva ${destacado ? "destacada" : ""}`}>
+      <div className="cabeceraProyecto">
+        <img src={imagen} alt={`Imagen del proyecto ${titulo}`} />
+        <div>
+          {destacado && <span className="etiquetaProyecto">Proyecto destacado</span>}
+          <h3>{titulo}</h3>
         </div>
-      )}
-    </div>
+      </div>
+      <p>{descripcion}</p>
+      <div className="tecnologiasProyecto" aria-label={`Tecnologías de ${titulo}`}>
+        {tecnologias.map((tecnologia) => (
+          <span key={tecnologia}>{tecnologia}</span>
+        ))}
+      </div>
+      <div className="accionesProyecto">
+        {enlaces.map(({ tipo, url, etiqueta }) => {
+          const Icono = iconosAccion[tipo];
+          return (
+            <a key={tipo} href={url} target="_blank" rel="noopener noreferrer">
+              <Icono aria-hidden="true" /> {etiqueta}
+            </a>
+          );
+        })}
+      </div>
+    </article>
   );
 }
 
