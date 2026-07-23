@@ -65,11 +65,21 @@ function SolucionesAMedida() {
           </div>
         </div>
         <aside className="resumen-portada-soluciones-medida">
-          <FaLightbulb aria-hidden="true" />
-          <p>
-            No se trata de agregar tecnología porque sí. Se trata de crear una
-            herramienta que simplifique una necesidad real de tu comercio.
-          </p>
+          <div className="contenido-resumen-portada-soluciones-medida">
+            <div className="contenedor-foto-soluciones-medida">
+              <div className="marco-foto-soluciones-medida">
+                <div className="orbita-foto-soluciones-medida" />
+                <img src="/Imagenes/FotoPerfil.jpeg" alt="Jorge Leonardo Núñez" />
+              </div>
+            </div>
+            <div className="mensaje-portada-soluciones-medida">
+              <FaLightbulb aria-hidden="true" />
+              <p>
+                No se trata de agregar tecnología porque sí. Se trata de crear una
+                herramienta que simplifique una necesidad real de tu comercio.
+              </p>
+            </div>
+          </div>
         </aside>
       </section>
 

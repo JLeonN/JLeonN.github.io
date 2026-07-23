@@ -1360,21 +1360,81 @@ body {
   transform: translateY(-3px);
 }
 .resumen-portada-soluciones-medida {
+  position: relative;
   padding: 30px;
   border: 1px solid rgba(55, 213, 180, 0.3);
   border-radius: 22px;
   background: linear-gradient(150deg, rgba(55, 213, 180, 0.13), rgba(13, 28, 45, 0.8));
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
 }
-.resumen-portada-soluciones-medida > svg {
+.contenido-resumen-portada-soluciones-medida {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  flex-direction: column;
+  gap: 28px;
+}
+.contenedor-foto-soluciones-medida {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  justify-content: center;
+}
+.marco-foto-soluciones-medida {
+  position: relative;
+  display: grid;
+  width: min(260px, 100%);
+  aspect-ratio: 1;
+  margin: 0 auto;
+  padding: 11px;
+  place-items: center;
+  border: 1px solid rgba(110, 168, 255, 0.46);
+  border-radius: 34% 66% 58% 42% / 39% 45% 55% 61%;
+  background: linear-gradient(145deg, rgba(110, 168, 255, 0.22), rgba(55, 213, 180, 0.12));
+  box-shadow: 0 0 0 13px rgba(110, 168, 255, 0.03), 0 24px 60px rgba(0, 0, 0, 0.3);
+  justify-self: center;
+  animation: flotar-foto-soluciones-medida 6s ease-in-out infinite;
+}
+.marco-foto-soluciones-medida img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+.orbita-foto-soluciones-medida {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 118%;
+  height: 70%;
+  border: 1px solid rgba(55, 213, 180, 0.35);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+}
+.mensaje-portada-soluciones-medida > svg {
   color: var(--acento-soluciones);
   font-size: 2rem;
 }
-.resumen-portada-soluciones-medida p {
+.mensaje-portada-soluciones-medida {
+  min-width: 0;
+  width: min(100%, 260px);
+  max-width: 100%;
+  text-align: left;
+}
+.mensaje-portada-soluciones-medida p {
   margin: 22px 0 0;
+  width: 100%;
+  max-width: 100%;
   color: var(--texto-soluciones);
   font-size: 1.04rem;
   line-height: 1.7;
+  overflow-wrap: break-word;
+}
+@keyframes flotar-foto-soluciones-medida {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1deg); }
 }
 .seccion-soluciones-medida {
   padding: 104px 0;
@@ -1451,7 +1511,8 @@ body {
   width: 130px;
   height: 130px;
   border-radius: 18px;
-  object-fit: cover;
+  background: #fff;
+  object-fit: contain;
 }
 .resultado-bitacora-soluciones-medida span {
   color: var(--acento-soluciones);
@@ -1558,7 +1619,7 @@ body {
 }
 @media (max-width: 480px) {
   .resultado-bitacora-soluciones-medida { grid-template-columns: 1fr; }
-  .resultado-bitacora-soluciones-medida img { width: 100%; height: 190px; }
+  .resultado-bitacora-soluciones-medida img { width: min(100%, 240px); height: auto; aspect-ratio: 1; }
   .mantenimiento-soluciones-medida { grid-template-columns: 1fr; padding: 28px; }
 }
 
