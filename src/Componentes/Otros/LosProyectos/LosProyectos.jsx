@@ -46,9 +46,19 @@ const proyectos = [
     ],
   },
   {
+    titulo: "Cronómetro App",
+    imagen: "/Imagenes/CronómetroApp.png",
+    descripcion: "Aplicación Android desarrollada con React Native y Expo para medir tiempos con precisión desde el celular. Incluye controles de inicio, pausa y detención dentro de una interfaz liviana, clara y optimizada para uso táctil.",
+    tecnologias: ["React Native", "Expo", "Android"],
+    enlaces: [
+      { tipo: "googlePlay", etiqueta: "Google Play", url: "https://play.google.com/store/apps/details?id=com.yojorge.Nombredemiproyecto" },
+      { tipo: "github", etiqueta: "GitHub", url: "https://github.com/JLeonN/Cronometro-APP" },
+    ],
+  },
+  {
     titulo: "Cronómetro Web",
     imagen: "/Imagenes/CronómetroWeb.jpg",
-    descripcion: "Herramienta web simple y accesible para medir tiempos con inicio, pausa y detención.",
+    descripcion: "Herramienta web desarrollada con React para medir tiempos directamente desde el navegador. Ofrece un flujo simple de inicio, pausa y detención, con una experiencia accesible y sin instalación.",
     tecnologias: ["React", "JavaScript", "CSS"],
     enlaces: [
       { tipo: "web", etiqueta: "Ver web", url: "https://jleonn.github.io/Cronometro/" },
