@@ -25,10 +25,10 @@ Crear una pagina comercial independiente dentro de la web personal para presenta
 
 Establecer el mensaje de venta y los servicios que presentara la pagina.
 
-- [ ] Redactar una propuesta principal clara para comercios que necesitan ordenar o mejorar procesos diarios
-- [ ] Definir servicios principales: apps Android, herramientas de escritorio y paginas web complementarias
-- [ ] Redactar beneficios concretos como ahorro de tiempo, mejor organizacion y mejor atencion al cliente
-- [ ] Definir el texto de mantenimiento como soporte, correccion de problemas y mejoras posteriores
+- [x] Redactar una propuesta principal clara para comercios que necesitan ordenar o mejorar procesos diarios
+- [x] Definir servicios principales: apps Android, herramientas de escritorio y paginas web complementarias
+- [x] Redactar beneficios concretos como ahorro de tiempo, mejor organizacion y mejor atencion al cliente
+- [x] Definir el texto de mantenimiento como soporte, correccion de problemas y mejoras posteriores
 
 ## FASE 2: Organizar contenido y estructura
 
@@ -36,13 +36,13 @@ Establecer el mensaje de venta y los servicios que presentara la pagina.
 
 Definir una pagina orientada a convertir visitas en contactos comerciales.
 
-- [ ] Crear la estructura de portada con propuesta comercial y llamado directo a contacto
-- [ ] Agregar una seccion sobre problemas habituales resueltos con apps y herramientas a medida
-- [ ] Agregar una seccion de servicios ordenada por prioridad comercial
-- [ ] Crear el caso destacado de Bitacora II con problema, solucion y resultado
-- [ ] Agregar ejemplos de soluciones posibles para comercios
-- [ ] Explicar un proceso simple: charla inicial, propuesta, desarrollo, entrega y mantenimiento
-- [ ] Agregar seccion final con llamada a contacto
+- [x] Crear la estructura de portada con propuesta comercial y llamado directo a contacto
+- [x] Agregar una seccion sobre problemas habituales resueltos con apps y herramientas a medida
+- [x] Agregar una seccion de servicios ordenada por prioridad comercial
+- [x] Crear el caso destacado de Bitacora II con problema, solucion y resultado
+- [x] Agregar ejemplos de soluciones posibles para comercios
+- [x] Explicar un proceso simple: charla inicial, propuesta, desarrollo, entrega y mantenimiento
+- [x] Agregar seccion final con llamada a contacto
 
 ## FASE 3: Implementar ruta y diseno
 
@@ -50,11 +50,11 @@ Definir una pagina orientada a convertir visitas en contactos comerciales.
 
 Construir la ruta publica `/solucionesamedida` manteniendo coherencia visual con la web existente y una identidad comercial propia.
 
-- [ ] Identificar la estructura actual del proyecto y el sistema de rutas utilizado
-- [ ] Crear la ruta publica `/solucionesamedida`
-- [ ] Implementar la pagina con diseno adaptable a celular, tablet y escritorio
-- [ ] Mantener coherencia con la identidad visual existente sin copiar el enfoque de la pagina principal
-- [ ] Incluir capturas, imagenes o demostraciones disponibles de Bitacora II
+- [x] Identificar la estructura actual del proyecto y el sistema de rutas utilizado
+- [x] Crear la ruta publica `/solucionesamedida`
+- [x] Implementar la pagina con diseno adaptable a celular, tablet y escritorio
+- [x] Mantener coherencia con la identidad visual existente sin copiar el enfoque de la pagina principal
+- [x] Incluir capturas, imagenes o demostraciones disponibles de Bitacora II
 - [ ] Agregar enlaces de contacto funcionales, con prioridad para WhatsApp
 
 ## FASE 4: Preparar difusion comercial
@@ -83,12 +83,12 @@ Validar que la pagina comercial funcione, comunique valor y pueda compartirse si
 
 ## Progreso del plan
 
-- [ ] Fase 1: Definir propuesta comercial
-- [ ] Fase 2: Organizar contenido y estructura
+- [x] Fase 1: Definir propuesta comercial
+- [x] Fase 2: Organizar contenido y estructura
 - [ ] Fase 3: Implementar ruta y diseno
 - [ ] Fase 4: Preparar difusion comercial
 - [ ] Fase Testing
 
 Fecha de creacion: 23 de Julio 2026
 Fecha de ultima actualizacion: 23 de Julio 2026
-Estado: BORRADOR
+Estado: EN PROCESO

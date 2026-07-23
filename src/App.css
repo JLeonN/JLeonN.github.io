@@ -1265,6 +1265,339 @@ body {
   }
 }
 
+/* Soluciones a medida */
+.pagina-soluciones-medida {
+  --fondo-soluciones: #07111f;
+  --fondo-elevado-soluciones: #0d1c2d;
+  --texto-soluciones: #edf6ff;
+  --texto-suave-soluciones: #a9bed2;
+  --acento-soluciones: #37d5b4;
+  min-height: 100vh;
+  padding: 0 24px;
+  color: var(--texto-soluciones);
+  background: var(--fondo-soluciones);
+  font-family: "Kanit", sans-serif;
+  overflow: hidden;
+}
+.pagina-soluciones-medida,
+.pagina-soluciones-medida * {
+  box-sizing: border-box;
+}
+.pagina-soluciones-medida * {
+  width: auto;
+}
+.encabezado-soluciones-medida,
+.portada-soluciones-medida,
+.seccion-soluciones-medida,
+.mantenimiento-soluciones-medida,
+.contacto-soluciones-medida,
+.pie-soluciones-medida {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+}
+.encabezado-soluciones-medida {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 78px;
+  border-bottom: 1px solid rgba(174, 207, 237, 0.12);
+}
+.marca-soluciones-medida,
+.enlace-volver-soluciones-medida,
+.acciones-soluciones-medida a,
+.enlace-bitacora-soluciones-medida,
+.acciones-contacto-soluciones-medida a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.marca-soluciones-medida {
+  gap: 10px;
+  color: var(--texto-soluciones);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+.marca-soluciones-medida span {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border-radius: 9px;
+  color: #05231e;
+  background: var(--acento-soluciones);
+  font-weight: 800;
+}
+.enlace-volver-soluciones-medida {
+  color: var(--texto-suave-soluciones);
+  font-size: 0.84rem;
+}
+.enlace-volver-soluciones-medida:hover {
+  color: var(--acento-soluciones);
+}
+.portada-soluciones-medida {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+  gap: clamp(36px, 8vw, 110px);
+  align-items: center;
+  min-height: 590px;
+}
+.etiqueta-soluciones-medida {
+  margin: 0 0 16px;
+  color: var(--acento-soluciones);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.portada-soluciones-medida h1,
+.seccion-soluciones-medida h2,
+.mantenimiento-soluciones-medida h2,
+.contacto-soluciones-medida h2 {
+  margin: 0;
+  color: var(--texto-soluciones);
+  font-size: clamp(2.1rem, 5vw, 4.9rem);
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+.texto-portada-soluciones-medida {
+  max-width: 690px;
+  margin: 28px 0 0;
+  color: var(--texto-suave-soluciones);
+  font-size: clamp(1.08rem, 2vw, 1.3rem);
+  line-height: 1.65;
+}
+.acciones-soluciones-medida {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+.acciones-soluciones-medida a {
+  min-height: 48px;
+  padding: 0 19px;
+  border-radius: 11px;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+.boton-soluciones-principal {
+  color: #05231e;
+  background: var(--acento-soluciones);
+}
+.boton-soluciones-secundario {
+  border: 1px solid rgba(174, 207, 237, 0.23);
+  color: var(--texto-soluciones);
+}
+.acciones-soluciones-medida a:hover,
+.enlace-bitacora-soluciones-medida:hover {
+  transform: translateY(-3px);
+}
+.resumen-portada-soluciones-medida {
+  padding: 30px;
+  border: 1px solid rgba(55, 213, 180, 0.3);
+  border-radius: 22px;
+  background: linear-gradient(150deg, rgba(55, 213, 180, 0.13), rgba(13, 28, 45, 0.8));
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+.resumen-portada-soluciones-medida > svg {
+  color: var(--acento-soluciones);
+  font-size: 2rem;
+}
+.resumen-portada-soluciones-medida p {
+  margin: 22px 0 0;
+  color: var(--texto-soluciones);
+  font-size: 1.04rem;
+  line-height: 1.7;
+}
+.seccion-soluciones-medida {
+  padding: 104px 0;
+}
+.seccion-soluciones-medida h2,
+.mantenimiento-soluciones-medida h2,
+.contacto-soluciones-medida h2 {
+  max-width: 790px;
+  font-size: clamp(1.9rem, 4vw, 3.35rem);
+}
+.seccion-problemas-soluciones-medida {
+  border-top: 1px solid rgba(174, 207, 237, 0.1);
+}
+.grilla-problemas-soluciones-medida,
+.grilla-servicios-soluciones-medida {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 44px;
+}
+.grilla-problemas-soluciones-medida article,
+.grilla-servicios-soluciones-medida article {
+  padding: 24px;
+  border: 1px solid rgba(174, 207, 237, 0.14);
+  border-radius: 17px;
+  background: var(--fondo-elevado-soluciones);
+}
+.grilla-problemas-soluciones-medida svg,
+.grilla-servicios-soluciones-medida svg {
+  color: var(--acento-soluciones);
+  font-size: 1.45rem;
+}
+.grilla-problemas-soluciones-medida p,
+.grilla-servicios-soluciones-medida p,
+.contenido-caso-soluciones-medida > p,
+.mantenimiento-soluciones-medida p,
+.contacto-soluciones-medida > div > p {
+  margin: 16px 0 0;
+  color: var(--texto-suave-soluciones);
+  line-height: 1.65;
+}
+.grilla-servicios-soluciones-medida article {
+  min-height: 220px;
+}
+.grilla-servicios-soluciones-medida h3 {
+  margin: 25px 0 0;
+  color: var(--texto-soluciones);
+  font-size: 1.18rem;
+}
+.caso-bitacora-soluciones-medida {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+  gap: clamp(28px, 7vw, 90px);
+  align-items: center;
+  border-top: 1px solid rgba(174, 207, 237, 0.1);
+}
+.enlace-bitacora-soluciones-medida {
+  margin-top: 27px;
+  color: var(--acento-soluciones);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+.resultado-bitacora-soluciones-medida {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 22px;
+  align-items: center;
+  padding: 24px;
+  border: 1px solid rgba(55, 213, 180, 0.3);
+  border-radius: 21px;
+  background: linear-gradient(140deg, rgba(22, 69, 71, 0.55), var(--fondo-elevado-soluciones));
+}
+.resultado-bitacora-soluciones-medida img {
+  width: 130px;
+  height: 130px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+.resultado-bitacora-soluciones-medida span {
+  color: var(--acento-soluciones);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.resultado-bitacora-soluciones-medida p {
+  margin: 10px 0 0;
+  color: var(--texto-soluciones);
+  line-height: 1.55;
+}
+.seccion-proceso-soluciones-medida {
+  padding-top: 24px;
+}
+.seccion-proceso-soluciones-medida ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 44px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.seccion-proceso-soluciones-medida li {
+  padding-top: 20px;
+  border-top: 1px solid rgba(174, 207, 237, 0.24);
+}
+.seccion-proceso-soluciones-medida li span {
+  color: var(--acento-soluciones);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.seccion-proceso-soluciones-medida li p {
+  margin: 12px 0 0;
+  color: var(--texto-suave-soluciones);
+  line-height: 1.58;
+}
+.mantenimiento-soluciones-medida {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 26px;
+  align-items: start;
+  padding: 44px;
+  border: 1px solid rgba(110, 168, 255, 0.3);
+  border-radius: 22px;
+  background: rgba(110, 168, 255, 0.08);
+}
+.mantenimiento-soluciones-medida > svg {
+  margin-top: 8px;
+  color: #6ea8ff;
+  font-size: 2rem;
+}
+.contacto-soluciones-medida {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 50px;
+  align-items: center;
+  margin-top: 104px;
+  padding: 74px 0;
+  border-top: 1px solid rgba(174, 207, 237, 0.12);
+}
+.acciones-contacto-soluciones-medida {
+  display: grid;
+  gap: 10px;
+}
+.acciones-contacto-soluciones-medida a {
+  min-width: 212px;
+  padding: 13px 15px;
+  border: 1px solid rgba(174, 207, 237, 0.16);
+  border-radius: 10px;
+  color: var(--texto-soluciones);
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 0.9rem;
+}
+.acciones-contacto-soluciones-medida a:hover {
+  border-color: var(--acento-soluciones);
+  background: rgba(55, 213, 180, 0.13);
+}
+.pie-soluciones-medida {
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  padding: 25px 0;
+  border-top: 1px solid rgba(174, 207, 237, 0.1);
+  color: var(--texto-suave-soluciones);
+  font-size: 0.82rem;
+}
+.pie-soluciones-medida svg {
+  color: var(--acento-soluciones);
+}
+@media (max-width: 760px) {
+  .pagina-soluciones-medida { padding: 0 16px; }
+  .portada-soluciones-medida,
+  .caso-bitacora-soluciones-medida,
+  .contacto-soluciones-medida { grid-template-columns: 1fr; }
+  .portada-soluciones-medida { min-height: auto; padding: 84px 0; }
+  .grilla-problemas-soluciones-medida,
+  .grilla-servicios-soluciones-medida,
+  .seccion-proceso-soluciones-medida ol { grid-template-columns: 1fr; }
+  .seccion-soluciones-medida { padding: 72px 0; }
+  .contacto-soluciones-medida { gap: 30px; margin-top: 72px; padding: 62px 0; }
+  .acciones-contacto-soluciones-medida a { justify-content: center; }
+}
+@media (max-width: 480px) {
+  .encabezado-soluciones-medida { min-height: 66px; }
+  .marca-soluciones-medida { font-size: 0; }
+  .enlace-volver-soluciones-medida { font-size: 0.78rem; }
+  .resultado-bitacora-soluciones-medida { grid-template-columns: 1fr; }
+  .resultado-bitacora-soluciones-medida img { width: 100%; height: 190px; }
+  .mantenimiento-soluciones-medida { grid-template-columns: 1fr; padding: 28px; }
+}
+
 /* Portfolio principal */
 .App:has(.navegacionPrincipal) {
   --fondoPrincipal: #07111f;
