@@ -1,6 +1,5 @@
 import {
   FaAndroid,
-  FaArrowLeft,
   FaArrowRight,
   FaDesktop,
   FaEnvelope,
@@ -9,8 +8,11 @@ import {
   FaLinkedin,
   FaMobileAlt,
   FaTools,
+  FaWhatsapp,
   FaWrench,
 } from "react-icons/fa";
+
+const enlaceWhatsApp = "https://wa.me/59895747743?text=Hola%20Jorge%2C%20vi%20tu%20p%C3%A1gina%20de%20Soluciones%20a%20medida%20y%20me%20gustar%C3%ADa%20conversar%20sobre%20una%20necesidad%20de%20mi%20comercio.";
 
 const servicios = [
   {
@@ -45,16 +47,6 @@ const pasos = [
 function SolucionesAMedida() {
   return (
     <main className="pagina-soluciones-medida">
-      <header className="encabezado-soluciones-medida">
-        <a className="marca-soluciones-medida" href="/">
-          <span>JL</span>
-          Soluciones a medida
-        </a>
-        <a className="enlace-volver-soluciones-medida" href="/">
-          <FaArrowLeft /> Mi página principal
-        </a>
-      </header>
-
       <section className="portada-soluciones-medida">
         <div>
           <p className="etiqueta-soluciones-medida">Soluciones digitales para comercios</p>
@@ -64,8 +56,8 @@ function SolucionesAMedida() {
             ordenar procesos, ahorrar tiempo y trabajar con información más clara.
           </p>
           <div className="acciones-soluciones-medida">
-            <a className="boton-soluciones-principal" href="#contactoSoluciones">
-              Contame qué necesitás <FaArrowRight />
+            <a className="boton-soluciones-principal" href={enlaceWhatsApp} target="_blank" rel="noopener noreferrer">
+              Hablemos por WhatsApp <FaWhatsapp />
             </a>
             <a className="boton-soluciones-secundario" href="#casoBitacora">
               Ver un caso real
@@ -166,6 +158,7 @@ function SolucionesAMedida() {
           <p>Contame cómo trabaja tu comercio y vemos juntos una forma práctica de mejorarlo.</p>
         </div>
         <div className="acciones-contacto-soluciones-medida">
+          <a href={enlaceWhatsApp} target="_blank" rel="noopener noreferrer"><FaWhatsapp /> Hablemos por WhatsApp</a>
           <a href="mailto:jorgebike.75@gmail.com"><FaEnvelope /> Escribirme por correo</a>
           <a href="https://www.linkedin.com/in/j-l-n-técnico/" target="_blank" rel="noopener noreferrer"><FaLinkedin /> Ver LinkedIn</a>
         </div>

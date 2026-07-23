@@ -1286,7 +1286,6 @@ body {
 .pagina-soluciones-medida * {
   width: auto;
 }
-.encabezado-soluciones-medida,
 .portada-soluciones-medida,
 .seccion-soluciones-medida,
 .mantenimiento-soluciones-medida,
@@ -1295,15 +1294,6 @@ body {
   width: min(1120px, 100%);
   margin: 0 auto;
 }
-.encabezado-soluciones-medida {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 78px;
-  border-bottom: 1px solid rgba(174, 207, 237, 0.12);
-}
-.marca-soluciones-medida,
-.enlace-volver-soluciones-medida,
 .acciones-soluciones-medida a,
 .enlace-bitacora-soluciones-medida,
 .acciones-contacto-soluciones-medida a {
@@ -1311,29 +1301,6 @@ body {
   align-items: center;
   gap: 8px;
   text-decoration: none;
-}
-.marca-soluciones-medida {
-  gap: 10px;
-  color: var(--texto-soluciones);
-  font-size: 0.92rem;
-  font-weight: 600;
-}
-.marca-soluciones-medida span {
-  display: grid;
-  width: 34px;
-  height: 34px;
-  place-items: center;
-  border-radius: 9px;
-  color: #05231e;
-  background: var(--acento-soluciones);
-  font-weight: 800;
-}
-.enlace-volver-soluciones-medida {
-  color: var(--texto-suave-soluciones);
-  font-size: 0.84rem;
-}
-.enlace-volver-soluciones-medida:hover {
-  color: var(--acento-soluciones);
 }
 .portada-soluciones-medida {
   display: grid;
@@ -1590,9 +1557,6 @@ body {
   .acciones-contacto-soluciones-medida a { justify-content: center; }
 }
 @media (max-width: 480px) {
-  .encabezado-soluciones-medida { min-height: 66px; }
-  .marca-soluciones-medida { font-size: 0; }
-  .enlace-volver-soluciones-medida { font-size: 0.78rem; }
   .resultado-bitacora-soluciones-medida { grid-template-columns: 1fr; }
   .resultado-bitacora-soluciones-medida img { width: 100%; height: 190px; }
   .mantenimiento-soluciones-medida { grid-template-columns: 1fr; padding: 28px; }

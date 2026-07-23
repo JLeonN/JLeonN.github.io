@@ -55,7 +55,7 @@ Construir la ruta publica `/solucionesamedida` manteniendo coherencia visual con
 - [x] Implementar la pagina con diseno adaptable a celular, tablet y escritorio
 - [x] Mantener coherencia con la identidad visual existente sin copiar el enfoque de la pagina principal
 - [x] Incluir capturas, imagenes o demostraciones disponibles de Bitacora II
-- [ ] Agregar enlaces de contacto funcionales, con prioridad para WhatsApp
+- [x] Agregar enlaces de contacto funcionales, con prioridad para WhatsApp
 
 ## FASE 4: Preparar difusion comercial
 
@@ -85,7 +85,7 @@ Validar que la pagina comercial funcione, comunique valor y pueda compartirse si
 
 - [x] Fase 1: Definir propuesta comercial
 - [x] Fase 2: Organizar contenido y estructura
-- [ ] Fase 3: Implementar ruta y diseno
+- [x] Fase 3: Implementar ruta y diseno
 - [ ] Fase 4: Preparar difusion comercial
 - [ ] Fase Testing
 
