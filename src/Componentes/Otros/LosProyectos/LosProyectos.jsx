@@ -26,7 +26,7 @@ const proyectos = [
     ],
   },
   {
-    titulo: "Ta-Te-Ti IA",
+    titulo: "Ta-Te-Ti: Vs IA Invencible",
     imagen: "/Imagenes/Ta-Te-Ti512x512.png",
     descripcion: "Juego móvil con tres niveles de dificultad, lógica de juego avanzada, puntuación, rachas animadas y una interfaz optimizada para celular.",
     tecnologias: ["Vue", "Quasar", "Capacitor"],

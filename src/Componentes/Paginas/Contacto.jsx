@@ -5,11 +5,12 @@ function Contacto() {
     <section id="contacto" className="seccionContacto">
       <div className="contenedorPrincipal contenidoContacto">
         <div>
-          <p className="etiquetaSeccion">¿Tenés una idea o una necesidad?</p>
-          <h2>Conversemos sobre tu próxima aplicación</h2>
+          <p className="etiquetaSeccion">¿Buscás mejorar procesos desde adentro?</p>
+          <h2>Conversemos sobre cómo puedo aportar a tu equipo</h2>
           <p>
-            Estoy disponible para conocer tu proyecto y pensar una solución web,
-            móvil, de escritorio o de automatización que realmente te sirva.
+            Me interesa formar parte de un equipo, conocer sus desafíos y crear
+            mejoras sostenidas con aplicaciones, automatizaciones e IA aplicada
+            con criterio humano.
           </p>
         </div>
         <div className="accionesContacto">

@@ -7,16 +7,16 @@ function Comienzo() {
       <div className="resplandorPortada resplandorPortadaDos" />
       <div className="contenedorPrincipal contenidoPortada">
         <div className="presentacionPortada">
-          <p className="etiquetaPortada">Desarrollo de software a medida</p>
+          <p className="etiquetaPortada">Desarrollo interno y mejora continua</p>
           <h1>Jorge Leonardo <span>Núñez</span></h1>
           <p className="descripcionPortada">
-            Creo aplicaciones a medida para convertir necesidades reales en
-            soluciones útiles: páginas web, aplicaciones móviles y herramientas
-            de escritorio.
+            Desarrollo y mejoro herramientas digitales a medida para empresas:
+            aplicaciones web, móviles, de escritorio y automatizaciones que
+            acompañan el trabajo real de cada equipo.
           </p>
           <p className="detallePortada">
-            Escucho el problema, propongo una solución y la construyo para que
-            sea práctica, clara y preparada para crecer.
+            Mi objetivo es integrarme al equipo, entender los procesos y aportar
+            mejoras constantes para que cada solución sea más útil con el tiempo.
           </p>
           <div className="accionesPortada">
             <a
@@ -25,7 +25,7 @@ function Comienzo() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin /> Contactar por LinkedIn
+              <FaLinkedin /> Conectar por LinkedIn
             </a>
             <a
               className="botonSecundario"

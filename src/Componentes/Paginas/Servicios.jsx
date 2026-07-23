@@ -27,11 +27,12 @@ function Servicios() {
   return (
     <section id="servicios" className="seccionPrincipal seccionServicios">
       <div className="contenedorPrincipal">
-        <p className="etiquetaSeccion">Lo que puedo construir</p>
-        <h2>Soluciones hechas para tu necesidad</h2>
+        <p className="etiquetaSeccion">Cómo puedo aportar</p>
+        <h2>Tecnología que mejora junto al equipo</h2>
         <p className="introduccionSeccion">
-          No parto de una plantilla: entiendo el objetivo y desarrollo la
-          herramienta que mejor se adapta a tu forma de trabajar.
+          No se trata solo de crear una aplicación: se trata de entender el
+          proceso, construir una primera solución y mejorarla con el uso diario
+          y el feedback de quienes la necesitan.
         </p>
         <div className="grillaServicios">
           {servicios.map(({ titulo, descripcion, icono: Icono }) => (
