@@ -1317,6 +1317,12 @@ body {
   letter-spacing: 0.13em;
   text-transform: uppercase;
 }
+.presentacion-personal-soluciones-medida {
+  margin: 0 0 16px;
+  color: var(--texto-soluciones);
+  font-size: 1rem;
+  font-weight: 600;
+}
 .portada-soluciones-medida h1,
 .seccion-soluciones-medida h2,
 .mantenimiento-soluciones-medida h2,

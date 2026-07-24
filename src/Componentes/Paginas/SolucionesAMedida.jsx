@@ -50,6 +50,9 @@ function SolucionesAMedida() {
       <section className="portada-soluciones-medida">
         <div>
           <p className="etiqueta-soluciones-medida">Soluciones digitales para comercios</p>
+          <p className="presentacion-personal-soluciones-medida">
+            Soy Jorge Leonardo Núñez, desarrollador de aplicaciones y herramientas a medida.
+          </p>
           <h1>Tu negocio trabaja todos los días. Tu tecnología también debería ayudar.</h1>
           <p className="texto-portada-soluciones-medida">
             Creo aplicaciones Android y herramientas de escritorio a medida para
